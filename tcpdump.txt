@@ -1,0 +1,1180 @@
+13:22:25.453747 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50001: Flags [P.], seq 1859963623:1859963811, ack 2810208685, win 63750, length 188
+13:22:25.490757 IP nat-128-62-164-12.public.utexas.edu.50001 > pc442.emulab.net.ssh: Flags [.], ack 0, win 63892, length 0
+13:22:25.500731 IP6 fe80::224:e8ff:fe79:265f > ip6-allrouters: ICMP6, router solicitation, length 16
+13:22:25.537129 IP nat-128-62-164-12.public.utexas.edu.50001 > pc442.emulab.net.ssh: Flags [.], ack 188, win 65000, length 0
+13:22:25.587312 ARP, Request who-has 155.98.36.0 tell control-router.emulab.net, length 46
+13:22:25.839051 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:26.350780 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:26.373507 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:26.433808 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:26.456003 IP pc442.emulab.net.43023 > boss.emulab.net.domain: 22583+ [1au] PTR? 42.38.98.155.in-addr.arpa. (54)
+13:22:26.456154 IP boss.emulab.net.domain > pc442.emulab.net.43023: 22583* 1/2/2 PTR pc442.emulab.net. (135)
+13:22:26.458571 IP pc442.emulab.net.60103 > boss.emulab.net.domain: 60321+ [1au] PTR? 0.36.98.155.in-addr.arpa. (53)
+13:22:26.458776 IP boss.emulab.net.domain > pc442.emulab.net.60103: 60321 NXDomain* 0/1/1 (121)
+13:22:26.458943 IP pc442.emulab.net.60103 > boss.emulab.net.domain: 60321+ PTR? 0.36.98.155.in-addr.arpa. (42)
+13:22:26.459150 IP boss.emulab.net.domain > pc442.emulab.net.60103: 60321 NXDomain* 0/1/0 (110)
+13:22:26.459939 IP pc442.emulab.net.56040 > boss.emulab.net.domain: 24584+ [1au] PTR? 1.36.98.155.in-addr.arpa. (53)
+13:22:26.460159 IP boss.emulab.net.domain > pc442.emulab.net.56040: 24584* 1/2/2 PTR control-router.emulab.net. (143)
+13:22:26.461680 IP pc442.emulab.net.45309 > boss.emulab.net.domain: 33056+ [1au] PTR? 221.37.98.155.in-addr.arpa. (55)
+13:22:26.461812 IP boss.emulab.net.domain > pc442.emulab.net.45309: 33056* 1/2/2 PTR cnuc-dentistry.emulab.net. (145)
+13:22:26.462499 IP pc442.emulab.net.52511 > boss.emulab.net.domain: 24793+ [1au] PTR? 70.32.98.155.in-addr.arpa. (54)
+13:22:26.462718 IP boss.emulab.net.domain > pc442.emulab.net.52511: 24793* 1/2/2 PTR boss.emulab.net. (134)
+13:22:26.707586 IP pc510.emulab.net.1012 > pc442.emulab.net.nfs: Flags [.], ack 3473569403, win 592, options [nop,nop,TS val 1428342690 ecr 877551777], length 0
+13:22:26.707587 IP pc510.emulab.net.1012 > pc442.emulab.net.nfs: Flags [P.], seq 1:153, ack 1, win 592, options [nop,nop,TS val 1428342690 ecr 877551777], length 152: NFS request xid 3169131983 148 getattr fh 0,2/53
+13:22:26.707606 IP pc442.emulab.net.nfs > pc510.emulab.net.1012: Flags [.], ack 1, win 7603, options [nop,nop,TS val 877582497 ecr 1428281250], length 0
+13:22:26.707690 IP pc442.emulab.net.nfs > pc510.emulab.net.1012: Flags [P.], seq 1:85, ack 153, win 7603, options [nop,nop,TS val 877582497 ecr 1428342690], length 84: NFS reply xid 3169131983 reply ok 80 getattr NON 1 ids 0/1451437413 sz 135873184
+13:22:26.707841 IP pc510.emulab.net.1012 > pc442.emulab.net.nfs: Flags [.], ack 85, win 592, options [nop,nop,TS val 1428342690 ecr 877582497], length 0
+13:22:26.758029 ARP, Request who-has 155.98.38.198 tell control-router.emulab.net, length 46
+13:22:26.816260 ARP, Request who-has pc850.emulab.net tell control-router.emulab.net, length 46
+13:22:26.862770 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:27.137733 ARP, Request who-has 155.98.37.152 tell control-router.emulab.net, length 46
+13:22:27.315900 IP6 fe80::1e69:7aff:fe60:52b5 > ip6-allrouters: ICMP6, router solicitation, length 16
+13:22:27.374753 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:27.446604 IP pc442.emulab.net.51304 > ops.emulab.net.16505: Flags [.], ack 3178790659, win 501, options [nop,nop,TS val 3457713681 ecr 3219818001], length 0
+13:22:27.446753 IP ops.emulab.net.16505 > pc442.emulab.net.51304: Flags [.], ack 1, win 128, options [nop,nop,TS val 3219998225 ecr 3457623468], length 0
+13:22:27.479198 IP pc442.emulab.net.33657 > boss.emulab.net.domain: 32928+ [1au] PTR? 110.38.98.155.in-addr.arpa. (55)
+13:22:27.479422 IP boss.emulab.net.domain > pc442.emulab.net.33657: 32928* 1/2/2 PTR pc510.emulab.net. (136)
+13:22:27.480359 IP pc442.emulab.net.59279 > boss.emulab.net.domain: 49284+ [1au] PTR? 198.38.98.155.in-addr.arpa. (55)
+13:22:27.480506 IP boss.emulab.net.domain > pc442.emulab.net.59279: 49284 NXDomain* 0/1/1 (123)
+13:22:27.480670 IP pc442.emulab.net.59279 > boss.emulab.net.domain: 49284+ PTR? 198.38.98.155.in-addr.arpa. (44)
+13:22:27.480820 IP boss.emulab.net.domain > pc442.emulab.net.59279: 49284 NXDomain* 0/1/0 (112)
+13:22:27.481612 IP pc442.emulab.net.41682 > boss.emulab.net.domain: 45403+ [1au] PTR? 150.36.98.155.in-addr.arpa. (55)
+13:22:27.481821 IP boss.emulab.net.domain > pc442.emulab.net.41682: 45403* 1/2/2 PTR pc850.emulab.net. (136)
+13:22:27.482524 IP pc442.emulab.net.42905 > boss.emulab.net.domain: 4638+ [1au] PTR? 152.37.98.155.in-addr.arpa. (55)
+13:22:27.482734 IP boss.emulab.net.domain > pc442.emulab.net.42905: 4638 NXDomain* 0/1/1 (123)
+13:22:27.482907 IP pc442.emulab.net.42905 > boss.emulab.net.domain: 4638+ PTR? 152.37.98.155.in-addr.arpa. (44)
+13:22:27.483101 IP boss.emulab.net.domain > pc442.emulab.net.42905: 4638 NXDomain* 0/1/0 (112)
+13:22:27.485407 IP pc442.emulab.net.41840 > boss.emulab.net.domain: 22036+ [1au] PTR? 74.33.98.155.in-addr.arpa. (54)
+13:22:27.485575 IP boss.emulab.net.domain > pc442.emulab.net.41840: 22036* 1/2/2 PTR ops.emulab.net. (133)
+13:22:27.644269 ARP, Request who-has 155.98.37.172 tell control-router.emulab.net, length 46
+13:22:27.702303 ARP, Request who-has 155.98.36.209 tell control-router.emulab.net, length 46
+13:22:27.733247 ARP, Request who-has 155.98.39.226 tell control-router.emulab.net, length 46
+13:22:27.886766 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:27.926925 IP 89.248.163.19.46659 > pc348.emulab.net.2082: Flags [S], seq 3574905880, win 1024, length 0
+13:22:27.942900 ARP, Request who-has 155.98.37.57 tell control-router.emulab.net, length 46
+13:22:28.153243 ARP, Request who-has cnode-moran.emulab.net tell control-router.emulab.net, length 46
+13:22:28.153476 IP ec2-18-61-159-236.ap-south-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 8, seq 22287, length 16
+13:22:28.153701 IP ec2-18-61-159-236.ap-south-2.compute.amazonaws.com > pc551.emulab.net: ICMP echo request, id 8, seq 22284, length 16
+13:22:28.268250 IP 57.128.69.19 > pc308.emulab.net: ICMP echo request, id 24573, seq 0, length 64
+13:22:28.268355 IP 57.128.69.19 > pc308.emulab.net: ICMP echo request, id 24574, seq 0, length 64
+13:22:28.313997 ARP, Request who-has 155.98.36.193 tell control-router.emulab.net, length 46
+13:22:28.379236 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:28.409091 ARP, Request who-has 155.98.37.10 tell control-router.emulab.net, length 46
+13:22:28.430819 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:28.433787 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:28.467199 IP ec2-18-60-49-223.ap-south-2.compute.amazonaws.com > pc551.emulab.net: ICMP echo request, id 8, seq 22284, length 16
+13:22:28.467459 IP ec2-18-60-49-223.ap-south-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 8, seq 22287, length 16
+13:22:28.489549 IP ec2-18-61-31-186.ap-south-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 8, seq 22287, length 16
+13:22:28.489549 IP ec2-18-61-31-186.ap-south-2.compute.amazonaws.com > pc551.emulab.net: ICMP echo request, id 8, seq 22284, length 16
+13:22:28.503192 IP pc442.emulab.net.54706 > boss.emulab.net.domain: 44322+ [1au] PTR? 172.37.98.155.in-addr.arpa. (55)
+13:22:28.503398 IP boss.emulab.net.domain > pc442.emulab.net.54706: 44322 NXDomain* 0/1/1 (123)
+13:22:28.503576 IP pc442.emulab.net.54706 > boss.emulab.net.domain: 44322+ PTR? 172.37.98.155.in-addr.arpa. (44)
+13:22:28.503803 IP boss.emulab.net.domain > pc442.emulab.net.54706: 44322 NXDomain* 0/1/0 (112)
+13:22:28.504654 IP pc442.emulab.net.58237 > boss.emulab.net.domain: 62460+ [1au] PTR? 209.36.98.155.in-addr.arpa. (55)
+13:22:28.504860 IP boss.emulab.net.domain > pc442.emulab.net.58237: 62460 NXDomain* 0/1/1 (123)
+13:22:28.505020 IP pc442.emulab.net.58237 > boss.emulab.net.domain: 62460+ PTR? 209.36.98.155.in-addr.arpa. (44)
+13:22:28.505231 IP boss.emulab.net.domain > pc442.emulab.net.58237: 62460 NXDomain* 0/1/0 (112)
+13:22:28.505918 IP pc442.emulab.net.33018 > boss.emulab.net.domain: 29755+ [1au] PTR? 226.39.98.155.in-addr.arpa. (55)
+13:22:28.506129 IP boss.emulab.net.domain > pc442.emulab.net.33018: 29755 NXDomain* 0/1/1 (123)
+13:22:28.506256 IP pc442.emulab.net.33018 > boss.emulab.net.domain: 29755+ PTR? 226.39.98.155.in-addr.arpa. (44)
+13:22:28.506403 IP boss.emulab.net.domain > pc442.emulab.net.33018: 29755 NXDomain* 0/1/0 (112)
+13:22:28.507174 IP pc442.emulab.net.59185 > boss.emulab.net.domain: 19653+ [1au] PTR? 148.39.98.155.in-addr.arpa. (55)
+13:22:28.507449 IP boss.emulab.net.domain > pc442.emulab.net.59185: 19653* 1/2/2 PTR pc348.emulab.net. (136)
+13:22:28.508270 IP pc442.emulab.net.55881 > boss.emulab.net.domain: 56584+ [1au] PTR? 19.163.248.89.in-addr.arpa. (55)
+13:22:28.508504 IP boss.emulab.net.domain > pc442.emulab.net.55881: 56584 NXDomain 0/1/1 (132)
+13:22:28.508642 IP pc442.emulab.net.55881 > boss.emulab.net.domain: 56584+ PTR? 19.163.248.89.in-addr.arpa. (44)
+13:22:28.508878 IP boss.emulab.net.domain > pc442.emulab.net.55881: 56584 NXDomain 0/1/0 (121)
+13:22:28.509578 IP pc442.emulab.net.55157 > boss.emulab.net.domain: 62823+ [1au] PTR? 57.37.98.155.in-addr.arpa. (54)
+13:22:28.509794 IP boss.emulab.net.domain > pc442.emulab.net.55157: 62823 NXDomain* 0/1/1 (122)
+13:22:28.509915 IP pc442.emulab.net.55157 > boss.emulab.net.domain: 62823+ PTR? 57.37.98.155.in-addr.arpa. (43)
+13:22:28.510123 IP boss.emulab.net.domain > pc442.emulab.net.55157: 62823 NXDomain* 0/1/0 (111)
+13:22:28.510886 IP pc442.emulab.net.60950 > boss.emulab.net.domain: 27776+ [1au] PTR? 231.37.98.155.in-addr.arpa. (55)
+13:22:28.511032 IP boss.emulab.net.domain > pc442.emulab.net.60950: 27776* 1/2/2 PTR cnode-moran.emulab.net. (142)
+13:22:28.511840 IP pc442.emulab.net.37810 > boss.emulab.net.domain: 28500+ [1au] PTR? 56.39.98.155.in-addr.arpa. (54)
+13:22:28.512049 IP boss.emulab.net.domain > pc442.emulab.net.37810: 28500* 1/2/2 PTR pc256.emulab.net. (135)
+13:22:28.512769 IP pc442.emulab.net.52479 > boss.emulab.net.domain: 22502+ [1au] PTR? 236.159.61.18.in-addr.arpa. (55)
+13:22:28.578930 IP boss.emulab.net.domain > pc442.emulab.net.52479: 22502 1/4/5 PTR ec2-18-61-159-236.ap-south-2.compute.amazonaws.com. (320)
+13:22:28.580013 IP pc442.emulab.net.47956 > boss.emulab.net.domain: 46120+ [1au] PTR? 151.38.98.155.in-addr.arpa. (55)
+13:22:28.580236 IP boss.emulab.net.domain > pc442.emulab.net.47956: 46120* 1/2/2 PTR pc551.emulab.net. (136)
+13:22:28.581073 IP pc442.emulab.net.35313 > boss.emulab.net.domain: 22576+ [1au] PTR? 108.39.98.155.in-addr.arpa. (55)
+13:22:28.581297 IP boss.emulab.net.domain > pc442.emulab.net.35313: 22576* 1/2/2 PTR pc308.emulab.net. (136)
+13:22:28.582018 IP pc442.emulab.net.52883 > boss.emulab.net.domain: 58890+ [1au] PTR? 19.69.128.57.in-addr.arpa. (54)
+13:22:28.588376 ARP, Request who-has 155.98.38.213 tell control-router.emulab.net, length 46
+13:22:28.788104 ARP, Request who-has 155.98.37.156 tell control-router.emulab.net, length 46
+13:22:28.830840 ARP, Request who-has 155.98.37.238 tell control-router.emulab.net, length 46
+13:22:28.883821 IP boss.emulab.net.domain > pc442.emulab.net.52883: 58890 ServFail 0/0/1 (54)
+13:22:28.883971 IP pc442.emulab.net.52883 > boss.emulab.net.domain: 58890+ [1au] PTR? 19.69.128.57.in-addr.arpa. (54)
+13:22:28.884122 IP boss.emulab.net.domain > pc442.emulab.net.52883: 58890 ServFail 0/0/1 (54)
+13:22:28.884269 IP pc442.emulab.net.52883 > boss.emulab.net.domain: 58890+ PTR? 19.69.128.57.in-addr.arpa. (43)
+13:22:28.884425 IP boss.emulab.net.domain > pc442.emulab.net.52883: 58890 ServFail 0/0/0 (43)
+13:22:28.885149 IP pc442.emulab.net.59451 > boss.emulab.net.domain: 42675+ [1au] PTR? 19.69.128.57.in-addr.arpa. (54)
+13:22:28.885360 IP boss.emulab.net.domain > pc442.emulab.net.59451: 42675 ServFail 0/0/1 (54)
+13:22:28.885490 IP pc442.emulab.net.59451 > boss.emulab.net.domain: 42675+ [1au] PTR? 19.69.128.57.in-addr.arpa. (54)
+13:22:28.885680 IP boss.emulab.net.domain > pc442.emulab.net.59451: 42675 ServFail 0/0/1 (54)
+13:22:28.885788 IP pc442.emulab.net.59451 > boss.emulab.net.domain: 42675+ PTR? 19.69.128.57.in-addr.arpa. (43)
+13:22:28.885952 IP boss.emulab.net.domain > pc442.emulab.net.59451: 42675 ServFail 0/0/0 (43)
+13:22:28.886599 IP pc442.emulab.net.34083 > boss.emulab.net.domain: 23208+ [1au] PTR? 193.36.98.155.in-addr.arpa. (55)
+13:22:28.886747 IP boss.emulab.net.domain > pc442.emulab.net.34083: 23208 NXDomain* 0/1/1 (123)
+13:22:28.886908 IP pc442.emulab.net.34083 > boss.emulab.net.domain: 23208+ PTR? 193.36.98.155.in-addr.arpa. (44)
+13:22:28.887053 IP boss.emulab.net.domain > pc442.emulab.net.34083: 23208 NXDomain* 0/1/0 (112)
+13:22:28.887902 IP pc442.emulab.net.52837 > boss.emulab.net.domain: 31148+ [1au] PTR? 10.37.98.155.in-addr.arpa. (54)
+13:22:28.888122 IP boss.emulab.net.domain > pc442.emulab.net.52837: 31148 NXDomain* 0/1/1 (122)
+13:22:28.888295 IP pc442.emulab.net.52837 > boss.emulab.net.domain: 31148+ PTR? 10.37.98.155.in-addr.arpa. (43)
+13:22:28.888482 IP boss.emulab.net.domain > pc442.emulab.net.52837: 31148 NXDomain* 0/1/0 (111)
+13:22:28.889241 IP pc442.emulab.net.50054 > boss.emulab.net.domain: 29999+ [1au] PTR? 223.49.60.18.in-addr.arpa. (54)
+13:22:28.927082 IP boss.emulab.net.domain > pc442.emulab.net.50054: 29999 1/4/5 PTR ec2-18-60-49-223.ap-south-2.compute.amazonaws.com. (318)
+13:22:28.928177 IP pc442.emulab.net.41399 > boss.emulab.net.domain: 35908+ [1au] PTR? 186.31.61.18.in-addr.arpa. (54)
+13:22:28.942928 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:28.948985 ARP, Request who-has 155.98.38.161 tell control-router.emulab.net, length 46
+13:22:28.963814 IP boss.emulab.net.domain > pc442.emulab.net.41399: 35908 1/4/5 PTR ec2-18-61-31-186.ap-south-2.compute.amazonaws.com. (318)
+13:22:28.993467 IP ams.server2.lib.com.51238 > pc464.emulab.net.openvpn: UDP, length 18
+13:22:28.996757 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from e4:11:5b:ea:e2:24 (oui Unknown), length 548
+13:22:29.076108 ARP, Request who-has 155.98.36.222 tell control-router.emulab.net, length 46
+13:22:29.088759 ARP, Request who-has pc333.emulab.net tell control-router.emulab.net, length 46
+13:22:29.454751 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:29.527477 IP pc442.emulab.net.54069 > boss.emulab.net.domain: 29311+ [1au] PTR? 213.38.98.155.in-addr.arpa. (55)
+13:22:29.527651 IP boss.emulab.net.domain > pc442.emulab.net.54069: 29311 NXDomain* 0/1/1 (123)
+13:22:29.527818 IP pc442.emulab.net.54069 > boss.emulab.net.domain: 29311+ PTR? 213.38.98.155.in-addr.arpa. (44)
+13:22:29.527957 IP boss.emulab.net.domain > pc442.emulab.net.54069: 29311 NXDomain* 0/1/0 (112)
+13:22:29.528810 IP pc442.emulab.net.45075 > boss.emulab.net.domain: 14411+ [1au] PTR? 156.37.98.155.in-addr.arpa. (55)
+13:22:29.528956 IP boss.emulab.net.domain > pc442.emulab.net.45075: 14411 NXDomain* 0/1/1 (123)
+13:22:29.529125 IP pc442.emulab.net.45075 > boss.emulab.net.domain: 14411+ PTR? 156.37.98.155.in-addr.arpa. (44)
+13:22:29.529265 IP boss.emulab.net.domain > pc442.emulab.net.45075: 14411 NXDomain* 0/1/0 (112)
+13:22:29.530063 IP pc442.emulab.net.54131 > boss.emulab.net.domain: 60741+ [1au] PTR? 238.37.98.155.in-addr.arpa. (55)
+13:22:29.530244 IP boss.emulab.net.domain > pc442.emulab.net.54131: 60741 NXDomain* 0/1/1 (123)
+13:22:29.530346 IP pc442.emulab.net.54131 > boss.emulab.net.domain: 60741+ PTR? 238.37.98.155.in-addr.arpa. (44)
+13:22:29.530578 IP boss.emulab.net.domain > pc442.emulab.net.54131: 60741 NXDomain* 0/1/0 (112)
+13:22:29.531745 IP pc442.emulab.net.34257 > boss.emulab.net.domain: 18000+ [1au] PTR? 161.38.98.155.in-addr.arpa. (55)
+13:22:29.531951 IP boss.emulab.net.domain > pc442.emulab.net.34257: 18000 NXDomain* 0/1/1 (123)
+13:22:29.532122 IP pc442.emulab.net.34257 > boss.emulab.net.domain: 18000+ PTR? 161.38.98.155.in-addr.arpa. (44)
+13:22:29.532330 IP boss.emulab.net.domain > pc442.emulab.net.34257: 18000 NXDomain* 0/1/0 (112)
+13:22:29.533104 IP pc442.emulab.net.35910 > boss.emulab.net.domain: 37896+ [1au] PTR? 64.38.98.155.in-addr.arpa. (54)
+13:22:29.533314 IP boss.emulab.net.domain > pc442.emulab.net.35910: 37896* 1/2/2 PTR pc464.emulab.net. (135)
+13:22:29.534024 IP pc442.emulab.net.55849 > boss.emulab.net.domain: 31831+ [1au] PTR? 86.101.20.198.in-addr.arpa. (55)
+13:22:29.655183 ARP, Request who-has sm05.emulab.net tell control-router.emulab.net, length 46
+13:22:29.766174 IP boss.emulab.net.domain > pc442.emulab.net.55849: 31831 1/3/3 PTR ams.server2.lib.com. (184)
+13:22:29.767880 IP pc442.emulab.net.44398 > boss.emulab.net.domain: 56448+ [1au] PTR? 222.36.98.155.in-addr.arpa. (55)
+13:22:29.768027 IP boss.emulab.net.domain > pc442.emulab.net.44398: 56448 NXDomain* 0/1/1 (123)
+13:22:29.768192 IP pc442.emulab.net.44398 > boss.emulab.net.domain: 56448+ PTR? 222.36.98.155.in-addr.arpa. (44)
+13:22:29.768343 IP boss.emulab.net.domain > pc442.emulab.net.44398: 56448 NXDomain* 0/1/0 (112)
+13:22:29.769075 IP pc442.emulab.net.50369 > boss.emulab.net.domain: 13332+ [1au] PTR? 133.39.98.155.in-addr.arpa. (55)
+13:22:29.769218 IP boss.emulab.net.domain > pc442.emulab.net.50369: 13332* 1/2/2 PTR pc333.emulab.net. (136)
+13:22:29.911469 ARP, Request who-has 155.98.39.21 tell control-router.emulab.net, length 46
+13:22:29.966747 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:30.185432 IP 89.248.163.19.46659 > pc290.emulab.net.2082: Flags [S], seq 4091478409, win 1024, length 0
+13:22:30.379424 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:30.433774 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:30.460959 ARP, Request who-has 155.98.39.210 tell control-router.emulab.net, length 46
+13:22:30.478751 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:30.551274 IP pc442.emulab.net.35343 > boss.emulab.net.domain: 60260+ [1au] PTR? 185.36.98.155.in-addr.arpa. (55)
+13:22:30.551496 IP boss.emulab.net.domain > pc442.emulab.net.35343: 60260* 1/2/2 PTR sm05.emulab.net. (135)
+13:22:30.552420 IP pc442.emulab.net.54194 > boss.emulab.net.domain: 34946+ [1au] PTR? 21.39.98.155.in-addr.arpa. (54)
+13:22:30.552630 IP boss.emulab.net.domain > pc442.emulab.net.54194: 34946 NXDomain* 0/1/1 (122)
+13:22:30.552801 IP pc442.emulab.net.54194 > boss.emulab.net.domain: 34946+ PTR? 21.39.98.155.in-addr.arpa. (43)
+13:22:30.553029 IP boss.emulab.net.domain > pc442.emulab.net.54194: 34946 NXDomain* 0/1/0 (111)
+13:22:30.553753 IP pc442.emulab.net.36575 > boss.emulab.net.domain: 667+ [1au] PTR? 90.39.98.155.in-addr.arpa. (54)
+13:22:30.553988 IP boss.emulab.net.domain > pc442.emulab.net.36575: 667* 1/2/2 PTR pc290.emulab.net. (135)
+13:22:30.554749 IP pc442.emulab.net.49583 > boss.emulab.net.domain: 56927+ [1au] PTR? 210.39.98.155.in-addr.arpa. (55)
+13:22:30.554954 IP boss.emulab.net.domain > pc442.emulab.net.49583: 56927 NXDomain* 0/1/1 (123)
+13:22:30.555122 IP pc442.emulab.net.49583 > boss.emulab.net.domain: 56927+ PTR? 210.39.98.155.in-addr.arpa. (44)
+13:22:30.555329 IP boss.emulab.net.domain > pc442.emulab.net.49583: 56927 NXDomain* 0/1/0 (112)
+13:22:30.990695 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:31.502936 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:31.602276 ARP, Request who-has cnode-ebc.emulab.net tell control-router.emulab.net, length 46
+13:22:31.798540 ARP, Request who-has pc510.emulab.net tell pc442.emulab.net, length 28
+13:22:31.798705 ARP, Reply pc510.emulab.net is-at 00:24:e8:78:37:7b (oui Unknown), length 46
+13:22:31.827435 ARP, Request who-has pc442.emulab.net tell pc510.emulab.net, length 46
+13:22:31.827447 ARP, Reply pc442.emulab.net is-at 00:24:e8:77:b5:51 (oui Unknown), length 28
+13:22:31.858542 IP6 fe80::46a8:42ff:fe4b:cf12.dhcpv6-client > ff02::1:2.dhcpv6-server: dhcp6 inf-req
+13:22:31.859879 ARP, Request who-has pc303.emulab.net tell control-router.emulab.net, length 46
+13:22:32.014875 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:32.029733 ARP, Request who-has 155.98.36.225 tell control-router.emulab.net, length 46
+13:22:32.073735 ARP, Request who-has 155.98.37.75 tell control-router.emulab.net, length 46
+13:22:32.087090 IP ec2-108-136-138-128.ap-southeast-3.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 5, seq 20698, length 16
+13:22:32.095943 IP ec2-43-218-116-18.ap-southeast-3.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 5, seq 20698, length 16
+13:22:32.102628 IP ec2-108-136-168-105.ap-southeast-3.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 5, seq 20698, length 16
+13:22:32.193706 IP ec2-108-137-12-113.ap-southeast-3.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 5, seq 20698, length 16
+13:22:32.198049 IP ec2-108-137-130-142.ap-southeast-3.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 5, seq 20698, length 16
+13:22:32.373583 IP ec2-108-136-57-195.ap-southeast-3.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 5, seq 20698, length 16
+13:22:32.382111 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:32.400393 ARP, Request who-has dyn-155-98-38-183.emulab.net tell control-router.emulab.net, length 46
+13:22:32.433764 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:32.481932 ARP, Request who-has pc276.emulab.net tell control-router.emulab.net, length 46
+13:22:32.526744 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:32.531984 ARP, Request who-has 155.98.39.246 tell control-router.emulab.net, length 46
+13:22:32.599030 IP pc442.emulab.net.53683 > boss.emulab.net.domain: 49791+ [1au] PTR? 233.37.98.155.in-addr.arpa. (55)
+13:22:32.599284 IP boss.emulab.net.domain > pc442.emulab.net.53683: 49791* 1/2/2 PTR cnode-ebc.emulab.net. (140)
+13:22:32.600666 IP pc442.emulab.net.40368 > boss.emulab.net.domain: 43089+ [1au] PTR? 2.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (101)
+13:22:32.600913 IP boss.emulab.net.domain > pc442.emulab.net.40368: 43089 NXDomain 0/1/1 (165)
+13:22:32.601150 IP pc442.emulab.net.40368 > boss.emulab.net.domain: 43089+ PTR? 2.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (90)
+13:22:32.601300 IP boss.emulab.net.domain > pc442.emulab.net.40368: 43089 NXDomain 0/1/0 (154)
+13:22:32.603922 IP pc442.emulab.net.56488 > boss.emulab.net.domain: 10279+ [1au] PTR? 103.39.98.155.in-addr.arpa. (55)
+13:22:32.604127 IP boss.emulab.net.domain > pc442.emulab.net.56488: 10279* 1/2/2 PTR pc303.emulab.net. (136)
+13:22:32.604918 IP pc442.emulab.net.36470 > boss.emulab.net.domain: 40640+ [1au] PTR? 225.36.98.155.in-addr.arpa. (55)
+13:22:32.605155 IP boss.emulab.net.domain > pc442.emulab.net.36470: 40640 NXDomain* 0/1/1 (123)
+13:22:32.605295 IP pc442.emulab.net.36470 > boss.emulab.net.domain: 40640+ PTR? 225.36.98.155.in-addr.arpa. (44)
+13:22:32.605495 IP boss.emulab.net.domain > pc442.emulab.net.36470: 40640 NXDomain* 0/1/0 (112)
+13:22:32.606167 IP pc442.emulab.net.51529 > boss.emulab.net.domain: 47548+ [1au] PTR? 75.37.98.155.in-addr.arpa. (54)
+13:22:32.606299 IP boss.emulab.net.domain > pc442.emulab.net.51529: 47548 NXDomain* 0/1/1 (122)
+13:22:32.606440 IP pc442.emulab.net.51529 > boss.emulab.net.domain: 47548+ PTR? 75.37.98.155.in-addr.arpa. (43)
+13:22:32.606592 IP boss.emulab.net.domain > pc442.emulab.net.51529: 47548 NXDomain* 0/1/0 (111)
+13:22:32.608991 IP pc442.emulab.net.60060 > boss.emulab.net.domain: 18621+ [1au] PTR? 105.168.136.108.in-addr.arpa. (57)
+13:22:32.645551 IP 123.211.203.35.bc.googleusercontent.com.49185 > pc460.emulab.net.39802: Flags [S], seq 3312714709, win 1024, options [mss 1460], length 0
+13:22:32.652424 ARP, Request who-has pc809.emulab.net tell control-router.emulab.net, length 46
+13:22:32.661811 IP boss.emulab.net.domain > pc442.emulab.net.60060: 18621 1/4/5 PTR ec2-108-136-168-105.ap-southeast-3.compute.amazonaws.com. (344)
+13:22:32.662970 IP pc442.emulab.net.56790 > boss.emulab.net.domain: 51798+ [1au] PTR? 113.12.137.108.in-addr.arpa. (56)
+13:22:32.717690 IP boss.emulab.net.domain > pc442.emulab.net.56790: 51798 1/4/5 PTR ec2-108-137-12-113.ap-southeast-3.compute.amazonaws.com. (342)
+13:22:32.718823 IP pc442.emulab.net.32909 > boss.emulab.net.domain: 22089+ [1au] PTR? 142.130.137.108.in-addr.arpa. (57)
+13:22:32.721289 IP control-router.emulab.net > pim-routers.mcast.net: PIMv2, Hello, length 26
+13:22:32.722928 IP control-router.emulab.net > all-systems.mcast.net: igmp query v2
+13:22:32.754457 IP boss.emulab.net.domain > pc442.emulab.net.32909: 22089 1/4/5 PTR ec2-108-137-130-142.ap-southeast-3.compute.amazonaws.com. (344)
+13:22:32.755578 IP pc442.emulab.net.55052 > boss.emulab.net.domain: 35296+ [1au] PTR? 195.57.136.108.in-addr.arpa. (56)
+13:22:32.791150 IP boss.emulab.net.domain > pc442.emulab.net.55052: 35296 1/4/5 PTR ec2-108-136-57-195.ap-southeast-3.compute.amazonaws.com. (342)
+13:22:32.792290 IP pc442.emulab.net.49449 > boss.emulab.net.domain: 45798+ [1au] PTR? 183.38.98.155.in-addr.arpa. (55)
+13:22:32.792451 IP boss.emulab.net.domain > pc442.emulab.net.49449: 45798* 1/2/2 PTR dyn-155-98-38-183.emulab.net. (148)
+13:22:32.793299 IP pc442.emulab.net.42257 > boss.emulab.net.domain: 27645+ [1au] PTR? 76.39.98.155.in-addr.arpa. (54)
+13:22:32.793530 IP boss.emulab.net.domain > pc442.emulab.net.42257: 27645* 1/2/2 PTR pc276.emulab.net. (135)
+13:22:32.794275 IP pc442.emulab.net.60592 > boss.emulab.net.domain: 48618+ [1au] PTR? 246.39.98.155.in-addr.arpa. (55)
+13:22:32.794524 IP boss.emulab.net.domain > pc442.emulab.net.60592: 48618 NXDomain* 0/1/1 (123)
+13:22:32.794675 IP pc442.emulab.net.60592 > boss.emulab.net.domain: 48618+ PTR? 246.39.98.155.in-addr.arpa. (44)
+13:22:32.794886 IP boss.emulab.net.domain > pc442.emulab.net.60592: 48618 NXDomain* 0/1/0 (112)
+13:22:32.904275 ARP, Request who-has ab.emulab.net tell control-router.emulab.net, length 46
+13:22:32.912286 IP 2.56.165.89.42831 > pc255.emulab.net.ms-wbt-server: Flags [S], seq 1337983862, win 1024, length 0
+13:22:32.918176 IP 2.56.165.89.42831 > pc323.emulab.net.ms-wbt-server: Flags [S], seq 2597334146, win 1024, length 0
+13:22:33.038759 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:33.437889 ARP, Request who-has pool-ctl-155-98-37-65.emulab.net tell control-router.emulab.net, length 46
+13:22:33.450200 ARP, Request who-has 155.98.39.195 tell control-router.emulab.net, length 46
+13:22:33.516455 ARP, Request who-has 155.98.37.150 tell control-router.emulab.net, length 46
+13:22:33.538672 ARP, Request who-has 155.98.37.157 tell control-router.emulab.net, length 46
+13:22:33.550652 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:33.607422 ARP, Request who-has dyn-155-98-37-34.emulab.net tell control-router.emulab.net, length 46
+13:22:33.623237 IP pc442.emulab.net.60450 > boss.emulab.net.domain: 58078+ [1au] PTR? 60.38.98.155.in-addr.arpa. (54)
+13:22:33.623498 IP boss.emulab.net.domain > pc442.emulab.net.60450: 58078* 1/2/2 PTR pc460.emulab.net. (135)
+13:22:33.624327 IP pc442.emulab.net.50155 > boss.emulab.net.domain: 62039+ [1au] PTR? 123.211.203.35.in-addr.arpa. (56)
+13:22:33.640851 IP 89.248.163.16.46304 > pc403.emulab.net.1184: Flags [S], seq 3062745841, win 1024, length 0
+13:22:33.665796 IP boss.emulab.net.domain > pc442.emulab.net.50155: 62039 1/4/9 PTR 123.211.203.35.bc.googleusercontent.com. (415)
+13:22:33.666993 IP pc442.emulab.net.48849 > boss.emulab.net.domain: 23491+ [1au] PTR? 109.36.98.155.in-addr.arpa. (55)
+13:22:33.667150 IP boss.emulab.net.domain > pc442.emulab.net.48849: 23491* 1/2/2 PTR pc809.emulab.net. (136)
+13:22:33.669781 IP pc442.emulab.net.50853 > boss.emulab.net.domain: 37561+ [1au] PTR? 220.38.98.155.in-addr.arpa. (55)
+13:22:33.670011 IP boss.emulab.net.domain > pc442.emulab.net.50853: 37561* 1/2/2 PTR ab.emulab.net. (133)
+13:22:33.670660 IP pc442.emulab.net.55995 > boss.emulab.net.domain: 35686+ [1au] PTR? 55.39.98.155.in-addr.arpa. (54)
+13:22:33.670833 IP boss.emulab.net.domain > pc442.emulab.net.55995: 35686* 1/2/2 PTR pc255.emulab.net. (135)
+13:22:33.671654 IP pc442.emulab.net.33811 > boss.emulab.net.domain: 43575+ [1au] PTR? 89.165.56.2.in-addr.arpa. (53)
+13:22:33.671878 IP boss.emulab.net.domain > pc442.emulab.net.33811: 43575 NXDomain 0/1/1 (117)
+13:22:33.672054 IP pc442.emulab.net.33811 > boss.emulab.net.domain: 43575+ PTR? 89.165.56.2.in-addr.arpa. (42)
+13:22:33.672255 IP boss.emulab.net.domain > pc442.emulab.net.33811: 43575 NXDomain 0/1/0 (106)
+13:22:33.673008 IP pc442.emulab.net.39545 > boss.emulab.net.domain: 25687+ [1au] PTR? 123.39.98.155.in-addr.arpa. (55)
+13:22:33.673201 IP boss.emulab.net.domain > pc442.emulab.net.39545: 25687* 1/2/2 PTR pc323.emulab.net. (136)
+13:22:33.673899 IP pc442.emulab.net.45309 > boss.emulab.net.domain: 62391+ [1au] PTR? 65.37.98.155.in-addr.arpa. (54)
+13:22:33.674034 IP boss.emulab.net.domain > pc442.emulab.net.45309: 62391* 1/2/2 PTR pool-ctl-155-98-37-65.emulab.net. (151)
+13:22:33.674803 IP pc442.emulab.net.49987 > boss.emulab.net.domain: 28636+ [1au] PTR? 195.39.98.155.in-addr.arpa. (55)
+13:22:33.675010 IP boss.emulab.net.domain > pc442.emulab.net.49987: 28636 NXDomain* 0/1/1 (123)
+13:22:33.675115 IP pc442.emulab.net.49987 > boss.emulab.net.domain: 28636+ PTR? 195.39.98.155.in-addr.arpa. (44)
+13:22:33.675324 IP boss.emulab.net.domain > pc442.emulab.net.49987: 28636 NXDomain* 0/1/0 (112)
+13:22:33.676066 IP pc442.emulab.net.57917 > boss.emulab.net.domain: 24283+ [1au] PTR? 150.37.98.155.in-addr.arpa. (55)
+13:22:33.676289 IP boss.emulab.net.domain > pc442.emulab.net.57917: 24283 NXDomain* 0/1/1 (123)
+13:22:33.676422 IP pc442.emulab.net.57917 > boss.emulab.net.domain: 24283+ PTR? 150.37.98.155.in-addr.arpa. (44)
+13:22:33.676635 IP boss.emulab.net.domain > pc442.emulab.net.57917: 24283 NXDomain* 0/1/0 (112)
+13:22:33.677319 IP pc442.emulab.net.60664 > boss.emulab.net.domain: 3133+ [1au] PTR? 157.37.98.155.in-addr.arpa. (55)
+13:22:33.677487 IP boss.emulab.net.domain > pc442.emulab.net.60664: 3133 NXDomain* 0/1/1 (123)
+13:22:33.677612 IP pc442.emulab.net.60664 > boss.emulab.net.domain: 3133+ PTR? 157.37.98.155.in-addr.arpa. (44)
+13:22:33.677777 IP boss.emulab.net.domain > pc442.emulab.net.60664: 3133 NXDomain* 0/1/0 (112)
+13:22:33.678477 IP pc442.emulab.net.43294 > boss.emulab.net.domain: 37930+ [1au] PTR? 34.37.98.155.in-addr.arpa. (54)
+13:22:33.678692 IP boss.emulab.net.domain > pc442.emulab.net.43294: 37930* 1/2/2 PTR dyn-155-98-37-34.emulab.net. (146)
+13:22:34.062762 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:34.228216 IP 43.131.52.47.16890 > pc551.emulab.net.51200: Flags [S], seq 2959663542, win 65535, options [mss 1424,nop,wscale 8,nop,nop,sackOK], length 0
+13:22:34.254383 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from 44:a8:42:4a:33:24 (oui Unknown), length 292
+13:22:34.345888 ARP, Request who-has pc335.emulab.net tell control-router.emulab.net, length 46
+13:22:34.406960 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:34.433763 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:34.445249 ARP, Request who-has 155.98.36.217 tell control-router.emulab.net, length 46
+13:22:34.575029 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:34.647138 IP pc442.emulab.net.42039 > boss.emulab.net.domain: 31085+ [1au] PTR? 3.38.98.155.in-addr.arpa. (53)
+13:22:34.647371 IP boss.emulab.net.domain > pc442.emulab.net.42039: 31085* 1/2/2 PTR pc403.emulab.net. (134)
+13:22:34.648210 IP pc442.emulab.net.42422 > boss.emulab.net.domain: 10752+ [1au] PTR? 16.163.248.89.in-addr.arpa. (55)
+13:22:34.648423 IP boss.emulab.net.domain > pc442.emulab.net.42422: 10752 NXDomain 0/1/1 (132)
+13:22:34.648595 IP pc442.emulab.net.42422 > boss.emulab.net.domain: 10752+ PTR? 16.163.248.89.in-addr.arpa. (44)
+13:22:34.648803 IP boss.emulab.net.domain > pc442.emulab.net.42422: 10752 NXDomain 0/1/0 (121)
+13:22:34.650030 IP pc442.emulab.net.44021 > boss.emulab.net.domain: 51323+ [1au] PTR? 47.52.131.43.in-addr.arpa. (54)
+13:22:34.757355 ARP, Request who-has 155.98.37.129 tell control-router.emulab.net, length 46
+13:22:34.768267 ARP, Request who-has pc316.emulab.net tell control-router.emulab.net, length 46
+13:22:34.996196 IP boss.emulab.net.domain > pc442.emulab.net.44021: 51323 NXDomain 0/1/1 (142)
+13:22:34.996364 IP pc442.emulab.net.44021 > boss.emulab.net.domain: 51323+ PTR? 47.52.131.43.in-addr.arpa. (43)
+13:22:34.996512 IP boss.emulab.net.domain > pc442.emulab.net.44021: 51323 NXDomain 0/1/0 (131)
+13:22:34.997411 IP pc442.emulab.net.41276 > boss.emulab.net.domain: 40969+ [1au] PTR? 135.39.98.155.in-addr.arpa. (55)
+13:22:34.997641 IP boss.emulab.net.domain > pc442.emulab.net.41276: 40969* 1/2/2 PTR pc335.emulab.net. (136)
+13:22:34.998410 IP pc442.emulab.net.36667 > boss.emulab.net.domain: 51110+ [1au] PTR? 217.36.98.155.in-addr.arpa. (55)
+13:22:34.998625 IP boss.emulab.net.domain > pc442.emulab.net.36667: 51110 NXDomain* 0/1/1 (123)
+13:22:34.998792 IP pc442.emulab.net.36667 > boss.emulab.net.domain: 51110+ PTR? 217.36.98.155.in-addr.arpa. (44)
+13:22:34.999004 IP boss.emulab.net.domain > pc442.emulab.net.36667: 51110 NXDomain* 0/1/0 (112)
+13:22:35.086881 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:35.148879 IP 47.211.203.35.bc.googleusercontent.com.50443 > pc498.emulab.net.24462: Flags [S], seq 1259214927, win 1024, options [mss 1460], length 0
+13:22:35.593798 ARP, Request who-has dyn-155-98-38-172.emulab.net tell control-router.emulab.net, length 46
+13:22:35.598757 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:35.598996 ARP, Request who-has pc809.emulab.net tell control-router.emulab.net, length 46
+13:22:35.671136 IP pc442.emulab.net.42177 > boss.emulab.net.domain: 48599+ [1au] PTR? 129.37.98.155.in-addr.arpa. (55)
+13:22:35.671289 IP boss.emulab.net.domain > pc442.emulab.net.42177: 48599 NXDomain* 0/1/1 (123)
+13:22:35.671456 IP pc442.emulab.net.42177 > boss.emulab.net.domain: 48599+ PTR? 129.37.98.155.in-addr.arpa. (44)
+13:22:35.671630 IP boss.emulab.net.domain > pc442.emulab.net.42177: 48599 NXDomain* 0/1/0 (112)
+13:22:35.672482 IP pc442.emulab.net.35032 > boss.emulab.net.domain: 46986+ [1au] PTR? 116.39.98.155.in-addr.arpa. (55)
+13:22:35.672702 IP boss.emulab.net.domain > pc442.emulab.net.35032: 46986* 1/2/2 PTR pc316.emulab.net. (136)
+13:22:35.673636 IP pc442.emulab.net.35537 > boss.emulab.net.domain: 7667+ [1au] PTR? 98.38.98.155.in-addr.arpa. (54)
+13:22:35.673829 IP boss.emulab.net.domain > pc442.emulab.net.35537: 7667* 1/2/2 PTR pc498.emulab.net. (135)
+13:22:35.674561 IP pc442.emulab.net.40717 > boss.emulab.net.domain: 36881+ [1au] PTR? 47.211.203.35.in-addr.arpa. (55)
+13:22:35.718241 IP boss.emulab.net.domain > pc442.emulab.net.40717: 36881 1/4/9 PTR 47.211.203.35.bc.googleusercontent.com. (413)
+13:22:35.719394 IP pc442.emulab.net.53693 > boss.emulab.net.domain: 38771+ [1au] PTR? 172.38.98.155.in-addr.arpa. (55)
+13:22:35.719621 IP boss.emulab.net.domain > pc442.emulab.net.53693: 38771* 1/2/2 PTR dyn-155-98-38-172.emulab.net. (148)
+13:22:35.747313 IP 193.34.212.225.isakmp > pc227.emulab.net.isakmp: isakmp: parent_sa ikev2_init[I]
+13:22:35.771552 ARP, Request who-has 155.98.37.109 tell control-router.emulab.net, length 46
+13:22:35.803260 ARP, Request who-has pc222.emulab.net tell control-router.emulab.net, length 46
+13:22:35.929882 IP 55.149.216.162.bc.googleusercontent.com.51756 > pc612.emulab.net.3974: Flags [S], seq 1869930309, win 1024, options [mss 1460], length 0
+13:22:36.010067 ARP, Request who-has 155.98.37.250 tell control-router.emulab.net, length 46
+13:22:36.040916 IP 89.248.163.16.46304 > pc406.emulab.net.1184: Flags [S], seq 2497512080, win 1024, length 0
+13:22:36.110764 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:36.236281 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 1634684042:1634684094, ack 2254067012, win 65000, length 52
+13:22:36.236281 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 52:96, ack 1, win 65000, length 44
+13:22:36.236400 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [.], ack 96, win 63750, length 0
+13:22:36.236898 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 96:140, ack 1, win 65000, length 44
+13:22:36.237331 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1:61, ack 140, win 63750, length 60
+13:22:36.332538 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 61, win 64940, length 0
+13:22:36.408638 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:36.433787 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:36.460501 ARP, Request who-has 155.98.37.181 tell control-router.emulab.net, length 46
+13:22:36.547888 ARP, Request who-has nuc16.emulab.net tell control-router.emulab.net, length 46
+13:22:36.622762 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:36.695202 IP pc442.emulab.net.33691 > boss.emulab.net.domain: 56302+ [1au] PTR? 27.39.98.155.in-addr.arpa. (54)
+13:22:36.695423 IP boss.emulab.net.domain > pc442.emulab.net.33691: 56302* 1/2/2 PTR pc227.emulab.net. (135)
+13:22:36.696265 IP pc442.emulab.net.37955 > boss.emulab.net.domain: 37512+ [1au] PTR? 225.212.34.193.in-addr.arpa. (56)
+13:22:36.696487 IP boss.emulab.net.domain > pc442.emulab.net.37955: 37512 NXDomain 0/1/1 (119)
+13:22:36.696657 IP pc442.emulab.net.37955 > boss.emulab.net.domain: 37512+ PTR? 225.212.34.193.in-addr.arpa. (45)
+13:22:36.696863 IP boss.emulab.net.domain > pc442.emulab.net.37955: 37512 NXDomain 0/1/0 (108)
+13:22:36.697640 IP pc442.emulab.net.49854 > boss.emulab.net.domain: 34772+ [1au] PTR? 109.37.98.155.in-addr.arpa. (55)
+13:22:36.697852 IP boss.emulab.net.domain > pc442.emulab.net.49854: 34772 NXDomain* 0/1/1 (123)
+13:22:36.697992 IP pc442.emulab.net.49854 > boss.emulab.net.domain: 34772+ PTR? 109.37.98.155.in-addr.arpa. (44)
+13:22:36.698187 IP boss.emulab.net.domain > pc442.emulab.net.49854: 34772 NXDomain* 0/1/0 (112)
+13:22:36.698945 IP pc442.emulab.net.56106 > boss.emulab.net.domain: 18047+ [1au] PTR? 22.39.98.155.in-addr.arpa. (54)
+13:22:36.699150 IP boss.emulab.net.domain > pc442.emulab.net.56106: 18047* 1/2/2 PTR pc222.emulab.net. (135)
+13:22:36.699997 IP pc442.emulab.net.43107 > boss.emulab.net.domain: 8496+ [1au] PTR? 232.38.98.155.in-addr.arpa. (55)
+13:22:36.700228 IP boss.emulab.net.domain > pc442.emulab.net.43107: 8496* 1/2/2 PTR pc612.emulab.net. (136)
+13:22:36.700951 IP pc442.emulab.net.52448 > boss.emulab.net.domain: 64427+ [1au] PTR? 55.149.216.162.in-addr.arpa. (56)
+13:22:36.715780 ARP, Request who-has pool-ctl-155-98-37-64.emulab.net tell control-router.emulab.net, length 46
+13:22:36.746689 IP boss.emulab.net.domain > pc442.emulab.net.52448: 64427 1/4/9 PTR 55.149.216.162.bc.googleusercontent.com. (415)
+13:22:36.747900 IP pc442.emulab.net.55993 > boss.emulab.net.domain: 55143+ [1au] PTR? 250.37.98.155.in-addr.arpa. (55)
+13:22:36.748051 IP boss.emulab.net.domain > pc442.emulab.net.55993: 55143 NXDomain* 0/1/1 (123)
+13:22:36.748216 IP pc442.emulab.net.55993 > boss.emulab.net.domain: 55143+ PTR? 250.37.98.155.in-addr.arpa. (44)
+13:22:36.748391 IP boss.emulab.net.domain > pc442.emulab.net.55993: 55143 NXDomain* 0/1/0 (112)
+13:22:36.749180 IP pc442.emulab.net.43710 > boss.emulab.net.domain: 18473+ [1au] PTR? 6.38.98.155.in-addr.arpa. (53)
+13:22:36.749407 IP boss.emulab.net.domain > pc442.emulab.net.43710: 18473* 1/2/2 PTR pc406.emulab.net. (134)
+13:22:36.750263 IP pc442.emulab.net.36450 > boss.emulab.net.domain: 29992+ [1au] PTR? 181.37.98.155.in-addr.arpa. (55)
+13:22:36.750473 IP boss.emulab.net.domain > pc442.emulab.net.36450: 29992 NXDomain* 0/1/1 (123)
+13:22:36.750646 IP pc442.emulab.net.36450 > boss.emulab.net.domain: 29992+ PTR? 181.37.98.155.in-addr.arpa. (44)
+13:22:36.750790 IP boss.emulab.net.domain > pc442.emulab.net.36450: 29992 NXDomain* 0/1/0 (112)
+13:22:36.751645 IP pc442.emulab.net.36939 > boss.emulab.net.domain: 36899+ [1au] PTR? 177.36.98.155.in-addr.arpa. (55)
+13:22:36.751859 IP boss.emulab.net.domain > pc442.emulab.net.36939: 36899* 1/2/2 PTR nuc16.emulab.net. (136)
+13:22:37.035531 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 140:176, ack 61, win 64940, length 36
+13:22:37.035944 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 61:145, ack 176, win 63750, length 84
+13:22:37.040250 IP pc442.emulab.net.43190 > boss.emulab.net.domain: 60413+ [1au] A? node0.lawson-lab2.os-class.emulab.net. (66)
+13:22:37.040419 IP boss.emulab.net.domain > pc442.emulab.net.43190: 60413* 2/3/4 CNAME pc442.emulab.net., A 155.98.38.42 (203)
+13:22:37.040428 IP pc442.emulab.net.41238 > boss.emulab.net.domain: 30732+ [1au] AAAA? node0.lawson-lab2.os-class.emulab.net. (66)
+13:22:37.040607 IP boss.emulab.net.domain > pc442.emulab.net.41238: 30732* 1/1/1 CNAME pc442.emulab.net. (150)
+13:22:37.041027 IP pc442.emulab.net.52187 > boss.emulab.net.domain: 36411+ [1au] AAAA? pc442.emulab.net. (45)
+13:22:37.041183 IP boss.emulab.net.domain > pc442.emulab.net.52187: 36411* 0/1/1 (109)
+13:22:37.120784 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 145, win 64856, length 0
+13:22:37.134770 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:37.165030 ARP, Request who-has 155.98.37.161 tell control-router.emulab.net, length 46
+13:22:37.380577 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 145:253, ack 176, win 63750, length 108
+13:22:37.398949 ARP, Request who-has 155.98.39.176 tell control-router.emulab.net, length 46
+13:22:37.448127 ARP, Request who-has dyn-155-98-37-29.emulab.net tell control-router.emulab.net, length 46
+13:22:37.573961 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 253, win 64748, length 0
+13:22:37.604424 ARP, Request who-has dyn-155-98-38-168.emulab.net tell control-router.emulab.net, length 46
+13:22:37.610569 ARP, Request who-has 155.98.38.218 tell control-router.emulab.net, length 46
+13:22:37.647093 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:37.689732 LLDP, length 264: procurve2
+13:22:37.719313 IP pc442.emulab.net.37251 > boss.emulab.net.domain: 37665+ [1au] PTR? 64.37.98.155.in-addr.arpa. (54)
+13:22:37.719530 IP boss.emulab.net.domain > pc442.emulab.net.37251: 37665* 1/2/2 PTR pool-ctl-155-98-37-64.emulab.net. (151)
+13:22:37.720767 IP pc442.emulab.net.38494 > boss.emulab.net.domain: 17476+ [1au] PTR? 161.37.98.155.in-addr.arpa. (55)
+13:22:37.720972 IP boss.emulab.net.domain > pc442.emulab.net.38494: 17476 NXDomain* 0/1/1 (123)
+13:22:37.721169 IP pc442.emulab.net.38494 > boss.emulab.net.domain: 17476+ PTR? 161.37.98.155.in-addr.arpa. (44)
+13:22:37.721381 IP boss.emulab.net.domain > pc442.emulab.net.38494: 17476 NXDomain* 0/1/0 (112)
+13:22:37.722111 IP pc442.emulab.net.47250 > boss.emulab.net.domain: 1162+ [1au] PTR? 176.39.98.155.in-addr.arpa. (55)
+13:22:37.722338 IP boss.emulab.net.domain > pc442.emulab.net.47250: 1162 NXDomain* 0/1/1 (123)
+13:22:37.722499 IP pc442.emulab.net.47250 > boss.emulab.net.domain: 1162+ PTR? 176.39.98.155.in-addr.arpa. (44)
+13:22:37.722709 IP boss.emulab.net.domain > pc442.emulab.net.47250: 1162 NXDomain* 0/1/0 (112)
+13:22:37.723568 IP pc442.emulab.net.41372 > boss.emulab.net.domain: 54603+ [1au] PTR? 29.37.98.155.in-addr.arpa. (54)
+13:22:37.723778 IP boss.emulab.net.domain > pc442.emulab.net.41372: 54603* 1/2/2 PTR dyn-155-98-37-29.emulab.net. (146)
+13:22:37.724606 IP pc442.emulab.net.48036 > boss.emulab.net.domain: 20211+ [1au] PTR? 168.38.98.155.in-addr.arpa. (55)
+13:22:37.724838 IP boss.emulab.net.domain > pc442.emulab.net.48036: 20211* 1/2/2 PTR dyn-155-98-38-168.emulab.net. (148)
+13:22:37.725533 IP pc442.emulab.net.60310 > boss.emulab.net.domain: 59056+ [1au] PTR? 218.38.98.155.in-addr.arpa. (55)
+13:22:37.725746 IP boss.emulab.net.domain > pc442.emulab.net.60310: 59056 NXDomain* 0/1/1 (123)
+13:22:37.725874 IP pc442.emulab.net.60310 > boss.emulab.net.domain: 59056+ PTR? 218.38.98.155.in-addr.arpa. (44)
+13:22:37.726057 IP boss.emulab.net.domain > pc442.emulab.net.60310: 59056 NXDomain* 0/1/0 (112)
+13:22:37.743020 IP control-router.emulab.net > pim-routers.mcast.net: PIMv2, Bootstrap, length 36
+13:22:38.097437 IP 200.150.216.162.bc.googleusercontent.com.56586 > pc465.emulab.net.28934: Flags [S], seq 1960924215, win 1024, options [mss 1460], length 0
+13:22:38.182953 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:38.272953 ARP, Request who-has dyn-155-98-38-171.emulab.net tell control-router.emulab.net, length 46
+13:22:38.411729 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:38.433765 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:38.670608 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:38.743387 IP pc442.emulab.net.60239 > boss.emulab.net.domain: 51929+ [1au] PTR? 65.38.98.155.in-addr.arpa. (54)
+13:22:38.743628 IP boss.emulab.net.domain > pc442.emulab.net.60239: 51929* 1/2/2 PTR pc465.emulab.net. (135)
+13:22:38.744447 IP pc442.emulab.net.50140 > boss.emulab.net.domain: 29350+ [1au] PTR? 200.150.216.162.in-addr.arpa. (57)
+13:22:38.775968 ARP, Request who-has pc302.emulab.net tell control-router.emulab.net, length 46
+13:22:38.788287 IP boss.emulab.net.domain > pc442.emulab.net.50140: 29350 1/4/9 PTR 200.150.216.162.bc.googleusercontent.com. (417)
+13:22:38.789511 IP pc442.emulab.net.41307 > boss.emulab.net.domain: 53434+ [1au] PTR? 171.38.98.155.in-addr.arpa. (55)
+13:22:38.789662 IP boss.emulab.net.domain > pc442.emulab.net.41307: 53434* 1/2/2 PTR dyn-155-98-38-171.emulab.net. (148)
+13:22:39.109101 IP6 fe80::1618:77ff:fe26:6a44 > ip6-allrouters: ICMP6, router solicitation, length 16
+13:22:39.214769 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:39.625750 IP6 fe80::1618:77ff:fe26:6ba1 > ip6-allrouters: ICMP6, router solicitation, length 16
+13:22:39.668301 ARP, Request who-has 155.98.37.142 tell control-router.emulab.net, length 46
+13:22:39.694699 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:39.766789 ARP, Request who-has 155.98.39.208 tell control-router.emulab.net, length 46
+13:22:39.767022 IP pc442.emulab.net.50343 > boss.emulab.net.domain: 33409+ [1au] PTR? 102.39.98.155.in-addr.arpa. (55)
+13:22:39.767245 IP boss.emulab.net.domain > pc442.emulab.net.50343: 33409* 1/2/2 PTR pc302.emulab.net. (136)
+13:22:39.771265 IP pc442.emulab.net.54278 > boss.emulab.net.domain: 23629+ [1au] PTR? 142.37.98.155.in-addr.arpa. (55)
+13:22:39.771487 IP boss.emulab.net.domain > pc442.emulab.net.54278: 23629 NXDomain* 0/1/1 (123)
+13:22:39.771664 IP pc442.emulab.net.54278 > boss.emulab.net.domain: 23629+ PTR? 142.37.98.155.in-addr.arpa. (44)
+13:22:39.771885 IP boss.emulab.net.domain > pc442.emulab.net.54278: 23629 NXDomain* 0/1/0 (112)
+13:22:39.864335 ARP, Request who-has 155.98.37.61 tell control-router.emulab.net, length 46
+13:22:39.932965 ARP, Request who-has 155.98.37.153 tell control-router.emulab.net, length 46
+13:22:40.099053 ARP, Request who-has dyn-155-98-37-43.emulab.net tell control-router.emulab.net, length 46
+13:22:40.212430 IP subboss3.emulab.net > all-systems.mcast.net: igmp query v2
+13:22:40.238756 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:40.391094 ARP, Request who-has 155.98.39.191 tell control-router.emulab.net, length 46
+13:22:40.415068 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:40.433779 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:40.746884 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:40.791027 IP pc442.emulab.net.55003 > boss.emulab.net.domain: 62930+ [1au] PTR? 208.39.98.155.in-addr.arpa. (55)
+13:22:40.791266 IP boss.emulab.net.domain > pc442.emulab.net.55003: 62930 NXDomain* 0/1/1 (123)
+13:22:40.791433 IP pc442.emulab.net.55003 > boss.emulab.net.domain: 62930+ PTR? 208.39.98.155.in-addr.arpa. (44)
+13:22:40.791637 IP boss.emulab.net.domain > pc442.emulab.net.55003: 62930 NXDomain* 0/1/0 (112)
+13:22:40.792570 IP pc442.emulab.net.47728 > boss.emulab.net.domain: 58125+ [1au] PTR? 61.37.98.155.in-addr.arpa. (54)
+13:22:40.792789 IP boss.emulab.net.domain > pc442.emulab.net.47728: 58125 NXDomain* 0/1/1 (122)
+13:22:40.792962 IP pc442.emulab.net.47728 > boss.emulab.net.domain: 58125+ PTR? 61.37.98.155.in-addr.arpa. (43)
+13:22:40.793166 IP boss.emulab.net.domain > pc442.emulab.net.47728: 58125 NXDomain* 0/1/0 (111)
+13:22:40.793912 IP pc442.emulab.net.57460 > boss.emulab.net.domain: 108+ [1au] PTR? 153.37.98.155.in-addr.arpa. (55)
+13:22:40.794148 IP boss.emulab.net.domain > pc442.emulab.net.57460: 108 NXDomain* 0/1/1 (123)
+13:22:40.794289 IP pc442.emulab.net.57460 > boss.emulab.net.domain: 108+ PTR? 153.37.98.155.in-addr.arpa. (44)
+13:22:40.794473 IP boss.emulab.net.domain > pc442.emulab.net.57460: 108 NXDomain* 0/1/0 (112)
+13:22:40.795332 IP pc442.emulab.net.56333 > boss.emulab.net.domain: 52734+ [1au] PTR? 43.37.98.155.in-addr.arpa. (54)
+13:22:40.795583 IP boss.emulab.net.domain > pc442.emulab.net.56333: 52734* 1/2/2 PTR dyn-155-98-37-43.emulab.net. (146)
+13:22:40.796382 IP pc442.emulab.net.40683 > boss.emulab.net.domain: 13692+ [1au] PTR? 165.38.98.155.in-addr.arpa. (55)
+13:22:40.796570 IP boss.emulab.net.domain > pc442.emulab.net.40683: 13692* 1/2/2 PTR subboss3.emulab.net. (139)
+13:22:40.797263 IP pc442.emulab.net.46974 > boss.emulab.net.domain: 58351+ [1au] PTR? 191.39.98.155.in-addr.arpa. (55)
+13:22:40.797396 IP boss.emulab.net.domain > pc442.emulab.net.46974: 58351 NXDomain* 0/1/1 (123)
+13:22:40.797529 IP pc442.emulab.net.46974 > boss.emulab.net.domain: 58351+ PTR? 191.39.98.155.in-addr.arpa. (44)
+13:22:40.797696 IP boss.emulab.net.domain > pc442.emulab.net.46974: 58351 NXDomain* 0/1/0 (112)
+13:22:40.903007 ARP, Request who-has pc12-fort.emulab.net tell control-router.emulab.net, length 46
+13:22:40.919721 ARP, Request who-has dyn-155-98-38-186.emulab.net tell control-router.emulab.net, length 46
+13:22:40.923760 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 176:212, ack 253, win 64748, length 36
+13:22:40.924285 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 253:289, ack 212, win 63750, length 36
+13:22:41.021658 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 289, win 64712, length 0
+13:22:41.097264 IP 43.129.40.155.32858 > pc229.emulab.net.14330: Flags [S], seq 1533755458, win 65535, options [mss 1424,nop,wscale 8,nop,nop,sackOK], length 0
+13:22:41.102185 IP 80.66.88.222.54602 > pc482.emulab.net.5901: Flags [S], seq 1174278662, win 64240, options [mss 1460,sackOK,TS val 2515929107 ecr 0,nop,wscale 7], length 0
+13:22:41.153480 ARP, Request who-has 155.98.38.219 tell control-router.emulab.net, length 46
+13:22:41.170623 ARP, Request who-has dyn-155-98-37-49.emulab.net tell control-router.emulab.net, length 46
+13:22:41.262816 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:41.414784 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 212:248, ack 289, win 64712, length 36
+13:22:41.415277 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 289:325, ack 248, win 63750, length 36
+13:22:41.443607 ARP, Request who-has ab.emulab.net tell control-router.emulab.net, length 46
+13:22:41.478864 ARP, Request who-has pc209.emulab.net tell control-router.emulab.net, length 46
+13:22:41.479951 IP 89.248.163.16.46304 > pc320.emulab.net.1919: Flags [S], seq 1438085841, win 1024, length 0
+13:22:41.490242 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 248:284, ack 325, win 64676, length 36
+13:22:41.490752 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 325:361, ack 284, win 63750, length 36
+13:22:41.579228 ARP, Request who-has 155.98.39.189 tell control-router.emulab.net, length 46
+13:22:41.581383 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 361, win 64640, length 0
+13:22:41.597542 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 284:320, ack 361, win 64640, length 36
+13:22:41.598088 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 361:397, ack 320, win 63750, length 36
+13:22:41.619280 ARP, Request who-has sm01.emulab.net tell control-router.emulab.net, length 46
+13:22:41.683285 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 397, win 64604, length 0
+13:22:41.700810 ARP, Request who-has 155.98.37.101 tell control-router.emulab.net, length 46
+13:22:41.759510 IP6 fe80::46a8:42ff:fe4a:3324.dhcpv6-client > ff02::1:2.dhcpv6-server: dhcp6 inf-req
+13:22:41.765526 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 320:356, ack 397, win 64604, length 36
+13:22:41.766031 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 397:433, ack 356, win 63750, length 36
+13:22:41.774700 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:41.803356 ARP, Request who-has 155.98.37.107 tell control-router.emulab.net, length 46
+13:22:41.815289 IP pc442.emulab.net.57197 > boss.emulab.net.domain: 2285+ [1au] PTR? 212.37.98.155.in-addr.arpa. (55)
+13:22:41.815449 IP boss.emulab.net.domain > pc442.emulab.net.57197: 2285* 1/2/2 PTR pc12-fort.emulab.net. (140)
+13:22:41.816291 IP pc442.emulab.net.42369 > boss.emulab.net.domain: 24775+ [1au] PTR? 186.38.98.155.in-addr.arpa. (55)
+13:22:41.816508 IP boss.emulab.net.domain > pc442.emulab.net.42369: 24775* 1/2/2 PTR dyn-155-98-38-186.emulab.net. (148)
+13:22:41.817356 IP pc442.emulab.net.48234 > boss.emulab.net.domain: 931+ [1au] PTR? 29.39.98.155.in-addr.arpa. (54)
+13:22:41.817509 IP boss.emulab.net.domain > pc442.emulab.net.48234: 931* 1/2/2 PTR pc229.emulab.net. (135)
+13:22:41.818190 IP pc442.emulab.net.48082 > boss.emulab.net.domain: 16342+ [1au] PTR? 155.40.129.43.in-addr.arpa. (55)
+13:22:41.863944 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 433, win 64568, length 0
+13:22:41.970761 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 356:392, ack 433, win 64568, length 36
+13:22:41.971258 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 433:469, ack 392, win 63750, length 36
+13:22:42.060058 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 469, win 64532, length 0
+13:22:42.286747 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:42.417433 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:42.418532 IP boss.emulab.net.domain > pc442.emulab.net.48082: 16342 NXDomain 0/0/1 (55)
+13:22:42.418697 IP pc442.emulab.net.48082 > boss.emulab.net.domain: 16342+ PTR? 155.40.129.43.in-addr.arpa. (44)
+13:22:42.418906 IP boss.emulab.net.domain > pc442.emulab.net.48082: 16342 NXDomain 0/0/0 (44)
+13:22:42.419730 IP pc442.emulab.net.34115 > boss.emulab.net.domain: 57647+ [1au] PTR? 82.38.98.155.in-addr.arpa. (54)
+13:22:42.419951 IP boss.emulab.net.domain > pc442.emulab.net.34115: 57647* 1/2/2 PTR pc482.emulab.net. (135)
+13:22:42.420785 IP pc442.emulab.net.52408 > boss.emulab.net.domain: 38203+ [1au] PTR? 222.88.66.80.in-addr.arpa. (54)
+13:22:42.422945 IP boss.emulab.net.domain > pc442.emulab.net.52408: 38203 NXDomain 0/1/1 (114)
+13:22:42.423116 IP pc442.emulab.net.52408 > boss.emulab.net.domain: 38203+ PTR? 222.88.66.80.in-addr.arpa. (43)
+13:22:42.423336 IP boss.emulab.net.domain > pc442.emulab.net.52408: 38203 NXDomain 0/1/0 (103)
+13:22:42.424190 IP pc442.emulab.net.47909 > boss.emulab.net.domain: 61967+ [1au] PTR? 219.38.98.155.in-addr.arpa. (55)
+13:22:42.424401 IP boss.emulab.net.domain > pc442.emulab.net.47909: 61967 NXDomain* 0/1/1 (123)
+13:22:42.424527 IP pc442.emulab.net.47909 > boss.emulab.net.domain: 61967+ PTR? 219.38.98.155.in-addr.arpa. (44)
+13:22:42.424720 IP boss.emulab.net.domain > pc442.emulab.net.47909: 61967 NXDomain* 0/1/0 (112)
+13:22:42.425442 IP pc442.emulab.net.43288 > boss.emulab.net.domain: 4655+ [1au] PTR? 49.37.98.155.in-addr.arpa. (54)
+13:22:42.425657 IP boss.emulab.net.domain > pc442.emulab.net.43288: 4655* 1/2/2 PTR dyn-155-98-37-49.emulab.net. (146)
+13:22:42.426366 IP pc442.emulab.net.41817 > boss.emulab.net.domain: 18788+ [1au] PTR? 9.39.98.155.in-addr.arpa. (53)
+13:22:42.426557 IP boss.emulab.net.domain > pc442.emulab.net.41817: 18788* 1/2/2 PTR pc209.emulab.net. (134)
+13:22:42.427353 IP pc442.emulab.net.40306 > boss.emulab.net.domain: 37925+ [1au] PTR? 120.39.98.155.in-addr.arpa. (55)
+13:22:42.427560 IP boss.emulab.net.domain > pc442.emulab.net.40306: 37925* 1/2/2 PTR pc320.emulab.net. (136)
+13:22:42.428325 IP pc442.emulab.net.56951 > boss.emulab.net.domain: 33411+ [1au] PTR? 189.39.98.155.in-addr.arpa. (55)
+13:22:42.428461 IP boss.emulab.net.domain > pc442.emulab.net.56951: 33411 NXDomain* 0/1/1 (123)
+13:22:42.428588 IP pc442.emulab.net.56951 > boss.emulab.net.domain: 33411+ PTR? 189.39.98.155.in-addr.arpa. (44)
+13:22:42.428704 IP boss.emulab.net.domain > pc442.emulab.net.56951: 33411 NXDomain* 0/1/0 (112)
+13:22:42.429513 IP pc442.emulab.net.36306 > boss.emulab.net.domain: 49777+ [1au] PTR? 181.36.98.155.in-addr.arpa. (55)
+13:22:42.429719 IP boss.emulab.net.domain > pc442.emulab.net.36306: 49777* 1/2/2 PTR sm01.emulab.net. (135)
+13:22:42.430421 IP pc442.emulab.net.59199 > boss.emulab.net.domain: 61614+ [1au] PTR? 101.37.98.155.in-addr.arpa. (55)
+13:22:42.430549 IP boss.emulab.net.domain > pc442.emulab.net.59199: 61614 NXDomain* 0/1/1 (123)
+13:22:42.430636 IP pc442.emulab.net.59199 > boss.emulab.net.domain: 61614+ PTR? 101.37.98.155.in-addr.arpa. (44)
+13:22:42.430845 IP boss.emulab.net.domain > pc442.emulab.net.59199: 61614 NXDomain* 0/1/0 (112)
+13:22:42.433006 IP pc442.emulab.net.42083 > boss.emulab.net.domain: 58507+ [1au] PTR? 107.37.98.155.in-addr.arpa. (55)
+13:22:42.433241 IP boss.emulab.net.domain > pc442.emulab.net.42083: 58507 NXDomain* 0/1/1 (123)
+13:22:42.433381 IP pc442.emulab.net.42083 > boss.emulab.net.domain: 58507+ PTR? 107.37.98.155.in-addr.arpa. (44)
+13:22:42.433614 IP boss.emulab.net.domain > pc442.emulab.net.42083: 58507 NXDomain* 0/1/0 (112)
+13:22:42.433685 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:42.483838 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 392:428, ack 469, win 64532, length 36
+13:22:42.484343 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 469:505, ack 428, win 63750, length 36
+13:22:42.528226 ARP, Reply 192.168.0.120 is-at 00:24:e8:78:2e:91 (oui Unknown), length 46
+13:22:42.576498 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 505, win 64496, length 0
+13:22:42.711613 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 428:464, ack 505, win 64496, length 36
+13:22:42.712115 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 505:541, ack 464, win 63750, length 36
+13:22:42.720176 ARP, Request who-has 155.98.37.165 tell control-router.emulab.net, length 46
+13:22:42.798767 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:42.799192 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 541, win 64460, length 0
+13:22:42.839654 IP pc442.emulab.net.38480 > boss.emulab.net.domain: 30119+ [1au] PTR? 120.0.168.192.in-addr.arpa. (55)
+13:22:42.839833 IP boss.emulab.net.domain > pc442.emulab.net.38480: 30119 NXDomain* 0/1/1 (110)
+13:22:42.840011 IP pc442.emulab.net.38480 > boss.emulab.net.domain: 30119+ PTR? 120.0.168.192.in-addr.arpa. (44)
+13:22:42.840157 IP boss.emulab.net.domain > pc442.emulab.net.38480: 30119 NXDomain* 0/1/0 (99)
+13:22:42.841055 IP pc442.emulab.net.49466 > boss.emulab.net.domain: 35435+ [1au] PTR? 165.37.98.155.in-addr.arpa. (55)
+13:22:42.841272 IP boss.emulab.net.domain > pc442.emulab.net.49466: 35435 NXDomain* 0/1/1 (123)
+13:22:42.841403 IP pc442.emulab.net.49466 > boss.emulab.net.domain: 35435+ PTR? 165.37.98.155.in-addr.arpa. (44)
+13:22:42.841593 IP boss.emulab.net.domain > pc442.emulab.net.49466: 35435 NXDomain* 0/1/0 (112)
+13:22:42.875588 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 464:500, ack 541, win 64460, length 36
+13:22:42.876090 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 541:577, ack 500, win 63750, length 36
+13:22:42.963331 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 577, win 64424, length 0
+13:22:43.025887 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 500:536, ack 577, win 64424, length 36
+13:22:43.026459 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 577:613, ack 536, win 63750, length 36
+13:22:43.079203 IP 149.149.216.162.bc.googleusercontent.com.52993 > pc498.emulab.net.1842: Flags [S], seq 1169539162, win 1024, options [mss 1460], length 0
+13:22:43.110145 ARP, Request who-has 155.98.37.151 tell control-router.emulab.net, length 46
+13:22:43.120765 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 613, win 64388, length 0
+13:22:43.137414 ARP, Request who-has dyn-155-98-38-178.emulab.net tell control-router.emulab.net, length 46
+13:22:43.177289 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 536:572, ack 613, win 64388, length 36
+13:22:43.177791 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 613:649, ack 572, win 63750, length 36
+13:22:43.267144 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 649, win 64352, length 0
+13:22:43.287259 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 572:608, ack 649, win 64352, length 36
+13:22:43.287736 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 649:685, ack 608, win 63750, length 36
+13:22:43.310760 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:43.378053 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 685, win 64316, length 0
+13:22:43.390439 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 608:644, ack 685, win 64316, length 36
+13:22:43.390947 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 685:721, ack 644, win 63750, length 36
+13:22:43.397033 ARP, Request who-has 155.98.37.1 tell control-router.emulab.net, length 46
+13:22:43.484418 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 721, win 64280, length 0
+13:22:43.573211 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 644:680, ack 721, win 64280, length 36
+13:22:43.573709 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 721:757, ack 680, win 63750, length 36
+13:22:43.672440 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 757, win 64244, length 0
+13:22:43.709653 ARP, Request who-has 155.98.38.204 tell control-router.emulab.net, length 46
+13:22:43.863194 IP pc442.emulab.net.48291 > boss.emulab.net.domain: 36607+ [1au] PTR? 149.149.216.162.in-addr.arpa. (57)
+13:22:43.918366 IP boss.emulab.net.domain > pc442.emulab.net.48291: 36607 1/4/9 PTR 149.149.216.162.bc.googleusercontent.com. (417)
+13:22:43.919584 IP pc442.emulab.net.37336 > boss.emulab.net.domain: 52955+ [1au] PTR? 151.37.98.155.in-addr.arpa. (55)
+13:22:43.919794 IP boss.emulab.net.domain > pc442.emulab.net.37336: 52955 NXDomain* 0/1/1 (123)
+13:22:43.919964 IP pc442.emulab.net.37336 > boss.emulab.net.domain: 52955+ PTR? 151.37.98.155.in-addr.arpa. (44)
+13:22:43.920175 IP boss.emulab.net.domain > pc442.emulab.net.37336: 52955 NXDomain* 0/1/0 (112)
+13:22:43.921039 IP pc442.emulab.net.51490 > boss.emulab.net.domain: 60574+ [1au] PTR? 178.38.98.155.in-addr.arpa. (55)
+13:22:43.921266 IP boss.emulab.net.domain > pc442.emulab.net.51490: 60574* 1/2/2 PTR dyn-155-98-38-178.emulab.net. (148)
+13:22:43.922090 IP pc442.emulab.net.44642 > boss.emulab.net.domain: 55556+ [1au] PTR? 1.37.98.155.in-addr.arpa. (53)
+13:22:43.922255 IP boss.emulab.net.domain > pc442.emulab.net.44642: 55556 NXDomain* 0/1/1 (121)
+13:22:43.922385 IP pc442.emulab.net.44642 > boss.emulab.net.domain: 55556+ PTR? 1.37.98.155.in-addr.arpa. (42)
+13:22:43.922583 IP boss.emulab.net.domain > pc442.emulab.net.44642: 55556 NXDomain* 0/1/0 (110)
+13:22:43.923417 IP pc442.emulab.net.47248 > boss.emulab.net.domain: 60464+ [1au] PTR? 204.38.98.155.in-addr.arpa. (55)
+13:22:43.923567 IP boss.emulab.net.domain > pc442.emulab.net.47248: 60464 NXDomain* 0/1/1 (123)
+13:22:43.923731 IP pc442.emulab.net.47248 > boss.emulab.net.domain: 60464+ PTR? 204.38.98.155.in-addr.arpa. (44)
+13:22:43.923882 IP boss.emulab.net.domain > pc442.emulab.net.47248: 60464 NXDomain* 0/1/0 (112)
+13:22:44.016962 IP 146.150.216.162.bc.googleusercontent.com.49956 > pc211.emulab.net.44170: Flags [S], seq 2519622009, win 1024, options [mss 1460], length 0
+13:22:44.069812 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:44.335025 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:44.359052 ARP, Request who-has nuc22.emulab.net tell subboss.emulab.net, length 46
+13:22:44.420069 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:44.433730 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:44.543327 ARP, Request who-has pc276.emulab.net tell control-router.emulab.net, length 46
+13:22:44.551353 ARP, Request who-has 155.98.39.254 tell control-router.emulab.net, length 46
+13:22:44.761271 ARP, Request who-has 155.98.36.244 tell control-router.emulab.net, length 46
+13:22:44.832103 ARP, Request who-has 155.98.37.96 tell control-router.emulab.net, length 46
+13:22:44.837314 ARP, Request who-has pc809.emulab.net tell control-router.emulab.net, length 46
+13:22:44.858460 ARP, Request who-has 155.98.36.217 tell control-router.emulab.net, length 46
+13:22:44.870702 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 680:716, ack 757, win 64244, length 36
+13:22:44.871202 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 757:793, ack 716, win 63750, length 36
+13:22:44.887276 IP pc442.emulab.net.59563 > boss.emulab.net.domain: 61943+ [1au] PTR? 11.39.98.155.in-addr.arpa. (54)
+13:22:44.887501 IP boss.emulab.net.domain > pc442.emulab.net.59563: 61943* 1/2/2 PTR pc211.emulab.net. (135)
+13:22:44.888352 IP pc442.emulab.net.41600 > boss.emulab.net.domain: 38370+ [1au] PTR? 146.150.216.162.in-addr.arpa. (57)
+13:22:44.910985 ARP, Request who-has 155.98.37.247 tell control-router.emulab.net, length 46
+13:22:44.948801 ARP, Request who-has pc285.emulab.net tell control-router.emulab.net, length 46
+13:22:44.950354 IP boss.emulab.net.domain > pc442.emulab.net.41600: 38370 1/4/9 PTR 146.150.216.162.bc.googleusercontent.com. (417)
+13:22:44.951549 IP pc442.emulab.net.42355 > boss.emulab.net.domain: 62425+ [1au] PTR? 169.36.98.155.in-addr.arpa. (55)
+13:22:44.951769 IP boss.emulab.net.domain > pc442.emulab.net.42355: 62425* 1/2/2 PTR nuc22.emulab.net. (136)
+13:22:44.952598 IP pc442.emulab.net.45464 > boss.emulab.net.domain: 4719+ [1au] PTR? 162.38.98.155.in-addr.arpa. (55)
+13:22:44.952743 IP boss.emulab.net.domain > pc442.emulab.net.45464: 4719* 1/2/2 PTR subboss.emulab.net. (138)
+13:22:44.953558 IP pc442.emulab.net.57545 > boss.emulab.net.domain: 31325+ [1au] PTR? 254.39.98.155.in-addr.arpa. (55)
+13:22:44.953770 IP boss.emulab.net.domain > pc442.emulab.net.57545: 31325 NXDomain* 0/1/1 (123)
+13:22:44.953903 IP pc442.emulab.net.57545 > boss.emulab.net.domain: 31325+ PTR? 254.39.98.155.in-addr.arpa. (44)
+13:22:44.954125 IP boss.emulab.net.domain > pc442.emulab.net.57545: 31325 NXDomain* 0/1/0 (112)
+13:22:44.954928 IP pc442.emulab.net.43121 > boss.emulab.net.domain: 51079+ [1au] PTR? 244.36.98.155.in-addr.arpa. (55)
+13:22:44.955139 IP boss.emulab.net.domain > pc442.emulab.net.43121: 51079 NXDomain* 0/1/1 (123)
+13:22:44.955312 IP pc442.emulab.net.43121 > boss.emulab.net.domain: 51079+ PTR? 244.36.98.155.in-addr.arpa. (44)
+13:22:44.955521 IP boss.emulab.net.domain > pc442.emulab.net.43121: 51079 NXDomain* 0/1/0 (112)
+13:22:44.956372 IP pc442.emulab.net.58323 > boss.emulab.net.domain: 2900+ [1au] PTR? 96.37.98.155.in-addr.arpa. (54)
+13:22:44.956521 IP boss.emulab.net.domain > pc442.emulab.net.58323: 2900 NXDomain* 0/1/1 (122)
+13:22:44.956655 IP pc442.emulab.net.58323 > boss.emulab.net.domain: 2900+ PTR? 96.37.98.155.in-addr.arpa. (43)
+13:22:44.956803 IP boss.emulab.net.domain > pc442.emulab.net.58323: 2900 NXDomain* 0/1/0 (111)
+13:22:44.957634 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 793, win 64208, length 0
+13:22:44.987770 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 716:752, ack 793, win 64208, length 36
+13:22:44.988276 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 793:829, ack 752, win 63750, length 36
+13:22:45.070600 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:45.075778 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 829, win 64172, length 0
+13:22:45.270754 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 752:788, ack 829, win 64172, length 36
+13:22:45.271266 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 829:865, ack 788, win 63750, length 36
+13:22:45.354205 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 865, win 64136, length 0
+13:22:45.358734 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:45.524518 IP 89.248.163.16.46304 > pc417.emulab.net.1184: Flags [S], seq 1592947294, win 1024, length 0
+13:22:45.569180 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 788:824, ack 865, win 64136, length 36
+13:22:45.569678 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 865:901, ack 824, win 63750, length 36
+13:22:45.637462 ARP, Request who-has dyn-155-98-38-175.emulab.net tell control-router.emulab.net, length 46
+13:22:45.653943 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 901, win 64100, length 0
+13:22:45.808181 IP6 fe80::baae:edff:fe74:a83d.dhcpv6-client > ff02::1:2.dhcpv6-server: dhcp6 inf-req
+13:22:45.911055 IP pc442.emulab.net.57911 > boss.emulab.net.domain: 63559+ [1au] PTR? 247.37.98.155.in-addr.arpa. (55)
+13:22:45.911266 IP boss.emulab.net.domain > pc442.emulab.net.57911: 63559 NXDomain* 0/1/1 (123)
+13:22:45.911453 IP pc442.emulab.net.57911 > boss.emulab.net.domain: 63559+ PTR? 247.37.98.155.in-addr.arpa. (44)
+13:22:45.911664 IP boss.emulab.net.domain > pc442.emulab.net.57911: 63559 NXDomain* 0/1/0 (112)
+13:22:45.912505 IP pc442.emulab.net.52673 > boss.emulab.net.domain: 59605+ [1au] PTR? 85.39.98.155.in-addr.arpa. (54)
+13:22:45.912727 IP boss.emulab.net.domain > pc442.emulab.net.52673: 59605* 1/2/2 PTR pc285.emulab.net. (135)
+13:22:45.913858 IP pc442.emulab.net.32989 > boss.emulab.net.domain: 22780+ [1au] PTR? 17.38.98.155.in-addr.arpa. (54)
+13:22:45.914092 IP boss.emulab.net.domain > pc442.emulab.net.32989: 22780* 1/2/2 PTR pc417.emulab.net. (135)
+13:22:45.915015 IP pc442.emulab.net.53904 > boss.emulab.net.domain: 30469+ [1au] PTR? 175.38.98.155.in-addr.arpa. (55)
+13:22:45.915225 IP boss.emulab.net.domain > pc442.emulab.net.53904: 30469* 1/2/2 PTR dyn-155-98-38-175.emulab.net. (148)
+13:22:46.094753 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:46.382737 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:46.433745 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:46.435024 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:46.505398 ARP, Request who-has 155.98.39.21 tell control-router.emulab.net, length 46
+13:22:46.512523 ARP, Request who-has pc307.emulab.net tell control-router.emulab.net, length 46
+13:22:46.552458 ARP, Request who-has 155.98.37.13 tell control-router.emulab.net, length 46
+13:22:46.935252 IP pc442.emulab.net.47018 > boss.emulab.net.domain: 18048+ [1au] PTR? 107.39.98.155.in-addr.arpa. (55)
+13:22:46.935418 IP boss.emulab.net.domain > pc442.emulab.net.47018: 18048* 1/2/2 PTR pc307.emulab.net. (136)
+13:22:46.936263 IP pc442.emulab.net.56029 > boss.emulab.net.domain: 22548+ [1au] PTR? 13.37.98.155.in-addr.arpa. (54)
+13:22:46.936381 IP boss.emulab.net.domain > pc442.emulab.net.56029: 22548 NXDomain* 0/1/1 (122)
+13:22:46.936556 IP pc442.emulab.net.56029 > boss.emulab.net.domain: 22548+ PTR? 13.37.98.155.in-addr.arpa. (43)
+13:22:46.936694 IP boss.emulab.net.domain > pc442.emulab.net.56029: 22548 NXDomain* 0/1/0 (111)
+13:22:47.110564 ARP, Request who-has 155.98.38.237 tell control-router.emulab.net, length 46
+13:22:47.150893 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:47.406870 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:47.615200 IP control-router.emulab.net > all-systems.mcast.net: igmp query v2
+13:22:47.693439 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 824:860, ack 901, win 64100, length 36
+13:22:47.693960 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 901:953, ack 860, win 63750, length 52
+13:22:47.698155 IP pc442.emulab.net.60621 > boss.emulab.net.domain: 48274+ [1au] A? node0.lawson-lab2.os-class.emulab.net. (66)
+13:22:47.698350 IP pc442.emulab.net.48480 > boss.emulab.net.domain: 26645+ [1au] AAAA? node0.lawson-lab2.os-class.emulab.net. (66)
+13:22:47.698409 IP boss.emulab.net.domain > pc442.emulab.net.60621: 48274* 2/3/4 CNAME pc442.emulab.net., A 155.98.38.42 (203)
+13:22:47.698494 IP boss.emulab.net.domain > pc442.emulab.net.48480: 26645* 1/1/1 CNAME pc442.emulab.net. (150)
+13:22:47.699085 IP pc442.emulab.net.41759 > boss.emulab.net.domain: 26223+ [1au] AAAA? pc442.emulab.net. (45)
+13:22:47.699293 IP boss.emulab.net.domain > pc442.emulab.net.41759: 26223* 0/1/1 (109)
+13:22:47.790284 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 953, win 64048, length 0
+13:22:47.911015 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from 00:24:e8:77:b5:51 (oui Unknown), length 300
+13:22:47.911374 IP subboss.emulab.net.bootps > pc442.emulab.net.bootpc: BOOTP/DHCP, Reply, length 300
+13:22:47.911729 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from 00:24:e8:77:b5:51 (oui Unknown), length 310
+13:22:47.951720 IP subboss.emulab.net.bootps > pc442.emulab.net.bootpc: BOOTP/DHCP, Reply, length 300
+13:22:47.959154 IP pc442.emulab.net.45076 > boss.emulab.net.domain: 33025+ [1au] PTR? 237.38.98.155.in-addr.arpa. (55)
+13:22:47.959397 IP boss.emulab.net.domain > pc442.emulab.net.45076: 33025 NXDomain* 0/1/1 (123)
+13:22:47.959574 IP pc442.emulab.net.45076 > boss.emulab.net.domain: 33025+ PTR? 237.38.98.155.in-addr.arpa. (44)
+13:22:47.959804 IP boss.emulab.net.domain > pc442.emulab.net.45076: 33025 NXDomain* 0/1/0 (112)
+13:22:47.965361 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 953:1021, ack 860, win 63750, length 68
+13:22:48.021851 ARP, Request who-has nuc12.emulab.net tell control-router.emulab.net, length 46
+13:22:48.053420 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1021, win 63980, length 0
+13:22:48.111786 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1021:1129, ack 860, win 63750, length 108
+13:22:48.174733 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:48.204572 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1129, win 63872, length 0
+13:22:48.401674 IP6 fe80::224:e8ff:fe7a:9842 > ip6-allrouters: ICMP6, router solicitation, length 16
+13:22:48.423093 IP 133.210.203.35.bc.googleusercontent.com.53505 > pc243.emulab.net.51918: Flags [S], seq 1843438691, win 1024, options [mss 1460], length 0
+13:22:48.430728 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:48.433740 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:48.436370 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:48.929601 ARP, Request who-has 155.98.36.242 tell control-router.emulab.net, length 46
+13:22:48.983285 IP pc442.emulab.net.55385 > boss.emulab.net.domain: 28753+ [1au] PTR? 172.36.98.155.in-addr.arpa. (55)
+13:22:48.983557 IP boss.emulab.net.domain > pc442.emulab.net.55385: 28753* 1/2/2 PTR nuc12.emulab.net. (136)
+13:22:48.986000 IP pc442.emulab.net.41514 > boss.emulab.net.domain: 51941+ [1au] PTR? 43.39.98.155.in-addr.arpa. (54)
+13:22:48.986177 IP boss.emulab.net.domain > pc442.emulab.net.41514: 51941* 1/2/2 PTR pc243.emulab.net. (135)
+13:22:48.986896 IP pc442.emulab.net.56103 > boss.emulab.net.domain: 20997+ [1au] PTR? 133.210.203.35.in-addr.arpa. (56)
+13:22:49.012736 ARP, Request who-has 155.98.36.161 tell control-router.emulab.net, length 46
+13:22:49.030418 IP boss.emulab.net.domain > pc442.emulab.net.56103: 20997 1/4/9 PTR 133.210.203.35.bc.googleusercontent.com. (415)
+13:22:49.031644 IP pc442.emulab.net.46824 > boss.emulab.net.domain: 31343+ [1au] PTR? 242.36.98.155.in-addr.arpa. (55)
+13:22:49.031854 IP boss.emulab.net.domain > pc442.emulab.net.46824: 31343 NXDomain* 0/1/1 (123)
+13:22:49.032035 IP pc442.emulab.net.46824 > boss.emulab.net.domain: 31343+ PTR? 242.36.98.155.in-addr.arpa. (44)
+13:22:49.032244 IP boss.emulab.net.domain > pc442.emulab.net.46824: 31343 NXDomain* 0/1/0 (112)
+13:22:49.131579 ARP, Request who-has pcvm604-1.emulab.net tell control-router.emulab.net, length 46
+13:22:49.198781 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:49.201695 ARP, Request who-has dyn-155-98-37-32.emulab.net tell control-router.emulab.net, length 46
+13:22:49.297083 ARP, Request who-has 155.98.39.21 tell control-router.emulab.net, length 46
+13:22:49.454738 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:49.773608 ARP, Request who-has 155.98.37.135 tell control-router.emulab.net, length 46
+13:22:49.835183 ARP, Request who-has 155.98.36.180 tell control-router.emulab.net, length 46
+13:22:49.839940 IP 89.248.163.16.46304 > pc228.emulab.net.1919: Flags [S], seq 3216837650, win 1024, length 0
+13:22:50.007094 IP pc442.emulab.net.47083 > boss.emulab.net.domain: 38862+ [1au] PTR? 161.36.98.155.in-addr.arpa. (55)
+13:22:50.007309 IP boss.emulab.net.domain > pc442.emulab.net.47083: 38862 NXDomain* 0/1/1 (123)
+13:22:50.007488 IP pc442.emulab.net.47083 > boss.emulab.net.domain: 38862+ PTR? 161.36.98.155.in-addr.arpa. (44)
+13:22:50.007697 IP boss.emulab.net.domain > pc442.emulab.net.47083: 38862 NXDomain* 0/1/0 (112)
+13:22:50.008627 IP pc442.emulab.net.53691 > boss.emulab.net.domain: 41527+ [1au] PTR? 242.38.98.155.in-addr.arpa. (55)
+13:22:50.008805 IP boss.emulab.net.domain > pc442.emulab.net.53691: 41527* 1/2/2 PTR pcvm604-1.emulab.net. (140)
+13:22:50.009556 IP pc442.emulab.net.52043 > boss.emulab.net.domain: 40846+ [1au] PTR? 32.37.98.155.in-addr.arpa. (54)
+13:22:50.009732 IP boss.emulab.net.domain > pc442.emulab.net.52043: 40846* 1/2/2 PTR dyn-155-98-37-32.emulab.net. (146)
+13:22:50.010459 IP pc442.emulab.net.36381 > boss.emulab.net.domain: 34823+ [1au] PTR? 135.37.98.155.in-addr.arpa. (55)
+13:22:50.010597 IP boss.emulab.net.domain > pc442.emulab.net.36381: 34823 NXDomain* 0/1/1 (123)
+13:22:50.010768 IP pc442.emulab.net.36381 > boss.emulab.net.domain: 34823+ PTR? 135.37.98.155.in-addr.arpa. (44)
+13:22:50.010921 IP boss.emulab.net.domain > pc442.emulab.net.36381: 34823 NXDomain* 0/1/0 (112)
+13:22:50.011736 IP pc442.emulab.net.41916 > boss.emulab.net.domain: 15506+ [1au] PTR? 180.36.98.155.in-addr.arpa. (55)
+13:22:50.011931 IP boss.emulab.net.domain > pc442.emulab.net.41916: 15506 NXDomain* 0/1/1 (123)
+13:22:50.012092 IP pc442.emulab.net.41916 > boss.emulab.net.domain: 15506+ PTR? 180.36.98.155.in-addr.arpa. (44)
+13:22:50.012294 IP boss.emulab.net.domain > pc442.emulab.net.41916: 15506 NXDomain* 0/1/0 (112)
+13:22:50.012985 IP pc442.emulab.net.37372 > boss.emulab.net.domain: 20388+ [1au] PTR? 28.39.98.155.in-addr.arpa. (54)
+13:22:50.013184 IP boss.emulab.net.domain > pc442.emulab.net.37372: 20388* 1/2/2 PTR pc228.emulab.net. (135)
+13:22:50.254725 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:50.286965 ARP, Request who-has 155.98.37.2 tell control-router.emulab.net, length 46
+13:22:50.301187 IP 1-168-95-85.dynamic-ip.hinet.net.48520 > pc498.emulab.net.1180: Flags [S], seq 2061192281, win 29040, options [mss 1452,sackOK,TS val 97217 ecr 0,nop,wscale 6], length 0
+13:22:50.316110 IP 89.248.163.16.46304 > pc407.emulab.net.1184: Flags [S], seq 1338767987, win 1024, length 0
+13:22:50.316110 ARP, Request who-has 155.98.37.255 tell control-router.emulab.net, length 46
+13:22:50.348786 IP cnuc-smt.emulab.net.48660 > 155.98.39.255.49600: UDP, length 8
+13:22:50.433771 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:50.448457 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:50.450542 IP 156.149.216.162.bc.googleusercontent.com.54180 > pc227.emulab.net.26750: Flags [S], seq 4095425571, win 1024, options [mss 1460], length 0
+13:22:50.478768 ARP, Request who-has em2.emulab.net tell control-router.emulab.net, length 46
+13:22:50.514855 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:50.645967 ARP, Request who-has 155.98.37.161 tell control-router.emulab.net, length 46
+13:22:50.683422 ARP, Request who-has 155.98.39.200 tell control-router.emulab.net, length 46
+13:22:50.774296 ARP, Request who-has 155.98.37.14 tell control-router.emulab.net, length 46
+13:22:50.831789 ARP, Request who-has pc216.emulab.net tell control-router.emulab.net, length 46
+13:22:50.968890 IP cnuc-smt.emulab.net.58765 > 155.98.39.255.49152: UDP, length 36
+13:22:51.031295 IP pc442.emulab.net.51483 > boss.emulab.net.domain: 38741+ [1au] PTR? 2.37.98.155.in-addr.arpa. (53)
+13:22:51.031505 IP boss.emulab.net.domain > pc442.emulab.net.51483: 38741 NXDomain* 0/1/1 (121)
+13:22:51.031678 IP pc442.emulab.net.51483 > boss.emulab.net.domain: 38741+ PTR? 2.37.98.155.in-addr.arpa. (42)
+13:22:51.031886 IP boss.emulab.net.domain > pc442.emulab.net.51483: 38741 NXDomain* 0/1/0 (110)
+13:22:51.032714 IP pc442.emulab.net.39647 > boss.emulab.net.domain: 63174+ [1au] PTR? 85.95.168.1.in-addr.arpa. (53)
+13:22:51.125346 ARP, Request who-has mww.emulab.net tell control-router.emulab.net, length 46
+13:22:51.138476 IP cnuc-smt.emulab.net.51444 > 155.98.39.255.49152: UDP, length 16
+13:22:51.278754 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:51.299162 IP 1-168-95-85.dynamic-ip.hinet.net.48520 > pc498.emulab.net.1180: Flags [S], seq 2061192281, win 29040, options [mss 1452,sackOK,TS val 97317 ecr 0,nop,wscale 6], length 0
+13:22:51.325550 IP boss.emulab.net.domain > pc442.emulab.net.39647: 63174 1/2/5 PTR 1-168-95-85.dynamic-ip.hinet.net. (229)
+13:22:51.326452 IP pc442.emulab.net.34144 > boss.emulab.net.domain: 16638+ [1au] PTR? 7.38.98.155.in-addr.arpa. (53)
+13:22:51.326673 IP boss.emulab.net.domain > pc442.emulab.net.34144: 16638* 1/2/2 PTR pc407.emulab.net. (134)
+13:22:51.327536 IP pc442.emulab.net.48661 > boss.emulab.net.domain: 21725+ [1au] PTR? 255.37.98.155.in-addr.arpa. (55)
+13:22:51.327686 IP boss.emulab.net.domain > pc442.emulab.net.48661: 21725 NXDomain* 0/1/1 (123)
+13:22:51.327856 IP pc442.emulab.net.48661 > boss.emulab.net.domain: 21725+ PTR? 255.37.98.155.in-addr.arpa. (44)
+13:22:51.328007 IP boss.emulab.net.domain > pc442.emulab.net.48661: 21725 NXDomain* 0/1/0 (112)
+13:22:51.328814 IP pc442.emulab.net.53174 > boss.emulab.net.domain: 60404+ [1au] PTR? 255.39.98.155.in-addr.arpa. (55)
+13:22:51.329010 IP boss.emulab.net.domain > pc442.emulab.net.53174: 60404 NXDomain* 0/1/1 (123)
+13:22:51.329128 IP pc442.emulab.net.53174 > boss.emulab.net.domain: 60404+ PTR? 255.39.98.155.in-addr.arpa. (44)
+13:22:51.329328 IP boss.emulab.net.domain > pc442.emulab.net.53174: 60404 NXDomain* 0/1/0 (112)
+13:22:51.330013 IP pc442.emulab.net.45005 > boss.emulab.net.domain: 50630+ [1au] PTR? 225.37.98.155.in-addr.arpa. (55)
+13:22:51.330217 IP boss.emulab.net.domain > pc442.emulab.net.45005: 50630* 1/2/2 PTR cnuc-smt.emulab.net. (139)
+13:22:51.330957 IP pc442.emulab.net.57226 > boss.emulab.net.domain: 43297+ [1au] PTR? 156.149.216.162.in-addr.arpa. (57)
+13:22:51.373233 IP boss.emulab.net.domain > pc442.emulab.net.57226: 43297 1/4/9 PTR 156.149.216.162.bc.googleusercontent.com. (417)
+13:22:51.374376 IP pc442.emulab.net.56161 > boss.emulab.net.domain: 53828+ [1au] PTR? 202.38.98.155.in-addr.arpa. (55)
+13:22:51.374611 IP boss.emulab.net.domain > pc442.emulab.net.56161: 53828* 1/2/2 PTR em2.emulab.net. (134)
+13:22:51.375478 IP pc442.emulab.net.45091 > boss.emulab.net.domain: 46640+ [1au] PTR? 200.39.98.155.in-addr.arpa. (55)
+13:22:51.375703 IP boss.emulab.net.domain > pc442.emulab.net.45091: 46640 NXDomain* 0/1/1 (123)
+13:22:51.375876 IP pc442.emulab.net.45091 > boss.emulab.net.domain: 46640+ PTR? 200.39.98.155.in-addr.arpa. (44)
+13:22:51.376057 IP boss.emulab.net.domain > pc442.emulab.net.45091: 46640 NXDomain* 0/1/0 (112)
+13:22:51.376809 IP pc442.emulab.net.51617 > boss.emulab.net.domain: 62751+ [1au] PTR? 14.37.98.155.in-addr.arpa. (54)
+13:22:51.377007 IP boss.emulab.net.domain > pc442.emulab.net.51617: 62751 NXDomain* 0/1/1 (122)
+13:22:51.377126 IP pc442.emulab.net.51617 > boss.emulab.net.domain: 62751+ PTR? 14.37.98.155.in-addr.arpa. (43)
+13:22:51.377323 IP boss.emulab.net.domain > pc442.emulab.net.51617: 62751 NXDomain* 0/1/0 (111)
+13:22:51.378016 IP pc442.emulab.net.44796 > boss.emulab.net.domain: 19736+ [1au] PTR? 16.39.98.155.in-addr.arpa. (54)
+13:22:51.378217 IP boss.emulab.net.domain > pc442.emulab.net.44796: 19736* 1/2/2 PTR pc216.emulab.net. (135)
+13:22:51.534711 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:51.567459 ARP, Request who-has nuc12.emulab.net tell control-router.emulab.net, length 46
+13:22:51.661226 ARP, Request who-has dyn-155-98-37-35.emulab.net tell control-router.emulab.net, length 46
+13:22:51.746864 ARP, Request who-has pc316.emulab.net tell control-router.emulab.net, length 46
+13:22:51.793002 ARP, Request who-has 155.98.39.177 tell control-router.emulab.net, length 46
+13:22:52.026481 IP pc442.emulab.net.krb-prop > ops.emulab.net.nfs: Flags [.], ack 335174982, win 502, options [nop,nop,TS val 3457738261 ecr 2131970609], length 0
+13:22:52.026607 IP ops.emulab.net.nfs > pc442.emulab.net.krb-prop: Flags [.], ack 1, win 29128, options [nop,nop,TS val 2132032049 ecr 3457493381], length 0
+13:22:52.055097 IP pc442.emulab.net.57067 > boss.emulab.net.domain: 24643+ [1au] PTR? 246.36.98.155.in-addr.arpa. (55)
+13:22:52.055306 IP boss.emulab.net.domain > pc442.emulab.net.57067: 24643* 1/2/2 PTR mww.emulab.net. (134)
+13:22:52.056596 IP pc442.emulab.net.44457 > boss.emulab.net.domain: 22453+ [1au] PTR? 35.37.98.155.in-addr.arpa. (54)
+13:22:52.056794 IP boss.emulab.net.domain > pc442.emulab.net.44457: 22453* 1/2/2 PTR dyn-155-98-37-35.emulab.net. (146)
+13:22:52.057547 IP pc442.emulab.net.52493 > boss.emulab.net.domain: 44553+ [1au] PTR? 177.39.98.155.in-addr.arpa. (55)
+13:22:52.057676 IP boss.emulab.net.domain > pc442.emulab.net.52493: 44553 NXDomain* 0/1/1 (123)
+13:22:52.057799 IP pc442.emulab.net.52493 > boss.emulab.net.domain: 44553+ PTR? 177.39.98.155.in-addr.arpa. (44)
+13:22:52.057915 IP boss.emulab.net.domain > pc442.emulab.net.52493: 44553 NXDomain* 0/1/0 (112)
+13:22:52.302740 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:52.352619 ARP, Request who-has powder-cnuc-meb.emulab.net tell control-router.emulab.net, length 46
+13:22:52.433724 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:52.447290 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:52.501919 IP6 fe80::1618:77ff:fe26:68ed.dhcpv6-client > ff02::1:2.dhcpv6-server: dhcp6 inf-req
+13:22:52.558727 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:52.638557 ARP, Request who-has 155.98.37.153 tell control-router.emulab.net, length 46
+13:22:53.079142 IP pc442.emulab.net.32856 > boss.emulab.net.domain: 27555+ [1au] PTR? 253.38.98.155.in-addr.arpa. (55)
+13:22:53.079363 IP boss.emulab.net.domain > pc442.emulab.net.32856: 27555* 1/2/2 PTR powder-cnuc-meb.emulab.net. (146)
+13:22:53.122915 ARP, Request who-has pool-node-0-155-98-37-74.emulab.net tell control-router.emulab.net, length 46
+13:22:53.300149 IP 1-168-95-85.dynamic-ip.hinet.net.48520 > pc498.emulab.net.1180: Flags [S], seq 2061192281, win 29040, options [mss 1452,sackOK,TS val 97517 ecr 0,nop,wscale 6], length 0
+13:22:53.327030 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:53.330053 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from 14:18:77:26:69:59 (oui Unknown), length 285
+13:22:53.388623 ARP, Request who-has 155.98.39.61 tell control-router.emulab.net, length 46
+13:22:53.586827 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:53.783712 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 860:896, ack 1129, win 63872, length 36
+13:22:53.784047 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1129:1165, ack 896, win 63750, length 36
+13:22:53.867020 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1165, win 63836, length 0
+13:22:54.026328 ARP, Request who-has 155.98.39.164 tell control-router.emulab.net, length 46
+13:22:54.103062 IP pc442.emulab.net.47340 > boss.emulab.net.domain: 35043+ [1au] PTR? 74.37.98.155.in-addr.arpa. (54)
+13:22:54.103283 IP boss.emulab.net.domain > pc442.emulab.net.47340: 35043* 1/2/2 PTR pool-node-0-155-98-37-74.emulab.net. (154)
+13:22:54.104218 IP pc442.emulab.net.44694 > boss.emulab.net.domain: 1907+ [1au] PTR? 61.39.98.155.in-addr.arpa. (54)
+13:22:54.104351 IP boss.emulab.net.domain > pc442.emulab.net.44694: 1907 NXDomain* 0/1/1 (122)
+13:22:54.104521 IP pc442.emulab.net.44694 > boss.emulab.net.domain: 1907+ PTR? 61.39.98.155.in-addr.arpa. (43)
+13:22:54.104633 IP boss.emulab.net.domain > pc442.emulab.net.44694: 1907 NXDomain* 0/1/0 (111)
+13:22:54.105433 IP pc442.emulab.net.40624 > boss.emulab.net.domain: 31255+ [1au] PTR? 164.39.98.155.in-addr.arpa. (55)
+13:22:54.105638 IP boss.emulab.net.domain > pc442.emulab.net.40624: 31255 NXDomain* 0/1/1 (123)
+13:22:54.105754 IP pc442.emulab.net.40624 > boss.emulab.net.domain: 31255+ PTR? 164.39.98.155.in-addr.arpa. (44)
+13:22:54.105953 IP boss.emulab.net.domain > pc442.emulab.net.40624: 31255 NXDomain* 0/1/0 (112)
+13:22:54.350748 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:54.433748 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:54.450117 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:54.470005 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 896:932, ack 1165, win 63836, length 36
+13:22:54.470337 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1165:1209, ack 932, win 63750, length 44
+13:22:54.554458 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1209, win 63792, length 0
+13:22:54.606735 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:54.732809 ARP, Request who-has 155.98.37.27 tell control-router.emulab.net, length 46
+13:22:55.101366 ARP, Request who-has 155.98.38.200 tell control-router.emulab.net, length 46
+13:22:55.127219 IP pc442.emulab.net.52169 > boss.emulab.net.domain: 38302+ [1au] PTR? 27.37.98.155.in-addr.arpa. (54)
+13:22:55.127427 IP boss.emulab.net.domain > pc442.emulab.net.52169: 38302 NXDomain* 0/1/1 (122)
+13:22:55.127597 IP pc442.emulab.net.52169 > boss.emulab.net.domain: 38302+ PTR? 27.37.98.155.in-addr.arpa. (43)
+13:22:55.127809 IP boss.emulab.net.domain > pc442.emulab.net.52169: 38302 NXDomain* 0/1/0 (111)
+13:22:55.128669 IP pc442.emulab.net.56544 > boss.emulab.net.domain: 52144+ [1au] PTR? 200.38.98.155.in-addr.arpa. (55)
+13:22:55.128793 IP boss.emulab.net.domain > pc442.emulab.net.56544: 52144 NXDomain* 0/1/1 (123)
+13:22:55.128961 IP pc442.emulab.net.56544 > boss.emulab.net.domain: 52144+ PTR? 200.38.98.155.in-addr.arpa. (44)
+13:22:55.129099 IP boss.emulab.net.domain > pc442.emulab.net.56544: 52144 NXDomain* 0/1/0 (112)
+13:22:55.286618 ARP, Request who-has dyn-155-98-37-37.emulab.net tell control-router.emulab.net, length 46
+13:22:55.374761 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:55.630736 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:56.151176 IP pc442.emulab.net.53481 > boss.emulab.net.domain: 52427+ [1au] PTR? 37.37.98.155.in-addr.arpa. (54)
+13:22:56.151411 IP boss.emulab.net.domain > pc442.emulab.net.53481: 52427* 1/2/2 PTR dyn-155-98-37-37.emulab.net. (146)
+13:22:56.386924 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from 00:24:e8:77:a7:d4 (oui Unknown), length 323
+13:22:56.398980 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:56.433612 IP kichirou.casenxu.com.8081 > pc403.emulab.net.8080: UDP, length 87
+13:22:56.433764 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:56.446309 IP 193.34.212.225.isakmp > pc251.emulab.net.isakmp: isakmp: parent_sa ikev2_init[I]
+13:22:56.453000 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:56.506829 IP 157.149.216.162.bc.googleusercontent.com.54425 > pc219.emulab.net.26854: Flags [S], seq 3641668301, win 1024, options [mss 1460], length 0
+13:22:56.533710 ARP, Request who-has 155.98.38.198 tell control-router.emulab.net, length 46
+13:22:56.658856 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:56.761880 IP6 fe80::224:e8ff:fe78:fecd.dhcpv6-client > ff02::1:2.dhcpv6-server: dhcp6 inf-req
+13:22:57.175144 IP pc442.emulab.net.45929 > boss.emulab.net.domain: 38415+ [1au] PTR? 254.248.172.167.in-addr.arpa. (57)
+13:22:57.216265 ARP, Request who-has 155.98.37.155 tell control-router.emulab.net, length 46
+13:22:57.265398 IP boss.emulab.net.domain > pc442.emulab.net.45929: 38415 1/3/7 PTR kichirou.casenxu.com. (290)
+13:22:57.266378 IP pc442.emulab.net.59686 > boss.emulab.net.domain: 11363+ [1au] PTR? 51.39.98.155.in-addr.arpa. (54)
+13:22:57.266642 IP boss.emulab.net.domain > pc442.emulab.net.59686: 11363* 1/2/2 PTR pc251.emulab.net. (135)
+13:22:57.267509 IP pc442.emulab.net.48435 > boss.emulab.net.domain: 16125+ [1au] PTR? 19.39.98.155.in-addr.arpa. (54)
+13:22:57.267718 IP boss.emulab.net.domain > pc442.emulab.net.48435: 16125* 1/2/2 PTR pc219.emulab.net. (135)
+13:22:57.268521 IP pc442.emulab.net.35684 > boss.emulab.net.domain: 64389+ [1au] PTR? 157.149.216.162.in-addr.arpa. (57)
+13:22:57.309954 IP boss.emulab.net.domain > pc442.emulab.net.35684: 64389 1/4/9 PTR 157.149.216.162.bc.googleusercontent.com. (417)
+13:22:57.310093 IP 1-168-95-85.dynamic-ip.hinet.net.48520 > pc498.emulab.net.1180: Flags [S], seq 2061192281, win 29040, options [mss 1452,sackOK,TS val 97918 ecr 0,nop,wscale 6], length 0
+13:22:57.422740 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:57.427440 IP pc510.emulab.net.1012 > pc442.emulab.net.nfs: Flags [.], ack 85, win 592, options [nop,nop,TS val 1428373410 ecr 877582497], length 0
+13:22:57.427462 IP pc442.emulab.net.nfs > pc510.emulab.net.1012: Flags [.], ack 153, win 7603, options [nop,nop,TS val 877613217 ecr 1428342690], length 0
+13:22:57.557927 IP 202.211.203.35.bc.googleusercontent.com.49510 > pc315.emulab.net.38502: Flags [S], seq 3544568353, win 1024, options [mss 1460], length 0
+13:22:57.604896 ARP, Request who-has 155.98.36.190 tell control-router.emulab.net, length 46
+13:22:57.678744 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:57.693604 ARP, Request who-has cnode-wasatch.emulab.net tell control-router.emulab.net, length 46
+13:22:58.065219 ARP, Request who-has dyn-155-98-37-94.emulab.net tell control-router.emulab.net, length 46
+13:22:58.136404 ARP, Request who-has dyn-155-98-37-22.emulab.net tell control-router.emulab.net, length 46
+13:22:58.199068 IP pc442.emulab.net.50302 > boss.emulab.net.domain: 22237+ [1au] PTR? 155.37.98.155.in-addr.arpa. (55)
+13:22:58.199218 IP boss.emulab.net.domain > pc442.emulab.net.50302: 22237 NXDomain* 0/1/1 (123)
+13:22:58.199390 IP pc442.emulab.net.50302 > boss.emulab.net.domain: 22237+ PTR? 155.37.98.155.in-addr.arpa. (44)
+13:22:58.199540 IP boss.emulab.net.domain > pc442.emulab.net.50302: 22237 NXDomain* 0/1/0 (112)
+13:22:58.200544 IP pc442.emulab.net.36863 > boss.emulab.net.domain: 55531+ [1au] PTR? 115.39.98.155.in-addr.arpa. (55)
+13:22:58.200737 IP boss.emulab.net.domain > pc442.emulab.net.36863: 55531* 1/2/2 PTR pc315.emulab.net. (136)
+13:22:58.201524 IP pc442.emulab.net.51762 > boss.emulab.net.domain: 39262+ [1au] PTR? 202.211.203.35.in-addr.arpa. (56)
+13:22:58.246287 IP boss.emulab.net.domain > pc442.emulab.net.51762: 39262 1/4/9 PTR 202.211.203.35.bc.googleusercontent.com. (415)
+13:22:58.247425 IP pc442.emulab.net.51323 > boss.emulab.net.domain: 336+ [1au] PTR? 190.36.98.155.in-addr.arpa. (55)
+13:22:58.247637 IP boss.emulab.net.domain > pc442.emulab.net.51323: 336 NXDomain* 0/1/1 (123)
+13:22:58.247833 IP pc442.emulab.net.51323 > boss.emulab.net.domain: 336+ PTR? 190.36.98.155.in-addr.arpa. (44)
+13:22:58.248043 IP boss.emulab.net.domain > pc442.emulab.net.51323: 336 NXDomain* 0/1/0 (112)
+13:22:58.248904 IP pc442.emulab.net.56465 > boss.emulab.net.domain: 47570+ [1au] PTR? 229.37.98.155.in-addr.arpa. (55)
+13:22:58.249022 IP boss.emulab.net.domain > pc442.emulab.net.56465: 47570* 1/2/2 PTR cnode-wasatch.emulab.net. (144)
+13:22:58.249727 IP pc442.emulab.net.57437 > boss.emulab.net.domain: 25663+ [1au] PTR? 94.37.98.155.in-addr.arpa. (54)
+13:22:58.249926 IP boss.emulab.net.domain > pc442.emulab.net.57437: 25663* 1/2/2 PTR dyn-155-98-37-94.emulab.net. (146)
+13:22:58.250600 IP pc442.emulab.net.37967 > boss.emulab.net.domain: 49327+ [1au] PTR? 22.37.98.155.in-addr.arpa. (54)
+13:22:58.250748 IP boss.emulab.net.domain > pc442.emulab.net.37967: 49327* 1/2/2 PTR dyn-155-98-37-22.emulab.net. (146)
+13:22:58.345796 ARP, Request who-has pc816.emulab.net tell control-router.emulab.net, length 46
+13:22:58.433745 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:22:58.446722 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:58.455894 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:22:58.583032 ARP, Request who-has 155.98.39.242 tell control-router.emulab.net, length 46
+13:22:58.702714 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:58.748778 IP ec2-3-208-17-188.compute-1.amazonaws.com > pc218.emulab.net: ICMP echo request, id 38476, seq 0, length 20
+13:22:58.831816 IP 219.150.216.162.bc.googleusercontent.com.50668 > pc551.emulab.net.25086: Flags [S], seq 571525778, win 1024, options [mss 1460], length 0
+13:22:59.223313 IP pc442.emulab.net.57643 > boss.emulab.net.domain: 48752+ [1au] PTR? 116.36.98.155.in-addr.arpa. (55)
+13:22:59.223524 IP boss.emulab.net.domain > pc442.emulab.net.57643: 48752* 1/2/2 PTR pc816.emulab.net. (136)
+13:22:59.224419 IP pc442.emulab.net.41423 > boss.emulab.net.domain: 50682+ [1au] PTR? 242.39.98.155.in-addr.arpa. (55)
+13:22:59.224597 IP boss.emulab.net.domain > pc442.emulab.net.41423: 50682 NXDomain* 0/1/1 (123)
+13:22:59.224755 IP pc442.emulab.net.41423 > boss.emulab.net.domain: 50682+ PTR? 242.39.98.155.in-addr.arpa. (44)
+13:22:59.224934 IP boss.emulab.net.domain > pc442.emulab.net.41423: 50682 NXDomain* 0/1/0 (112)
+13:22:59.225622 IP pc442.emulab.net.60310 > boss.emulab.net.domain: 63499+ [1au] PTR? 18.39.98.155.in-addr.arpa. (54)
+13:22:59.225797 IP boss.emulab.net.domain > pc442.emulab.net.60310: 63499* 1/2/2 PTR pc218.emulab.net. (135)
+13:22:59.226504 IP pc442.emulab.net.36504 > boss.emulab.net.domain: 12530+ [1au] PTR? 188.17.208.3.in-addr.arpa. (54)
+13:22:59.290896 IP 89.149.216.162.bc.googleusercontent.com.56954 > pc248.emulab.net.33614: Flags [S], seq 3636536406, win 1024, options [mss 1460], length 0
+13:22:59.299199 IP boss.emulab.net.domain > pc442.emulab.net.36504: 12530 1/4/5 PTR ec2-3-208-17-188.compute-1.amazonaws.com. (305)
+13:22:59.300304 IP pc442.emulab.net.46419 > boss.emulab.net.domain: 12194+ [1au] PTR? 219.150.216.162.in-addr.arpa. (57)
+13:22:59.326336 IP 89.248.163.16.46304 > pc263.emulab.net.1919: Flags [S], seq 3386637381, win 1024, length 0
+13:22:59.358674 IP boss.emulab.net.domain > pc442.emulab.net.46419: 12194 1/4/9 PTR 219.150.216.162.bc.googleusercontent.com. (417)
+13:22:59.482877 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:22:59.545957 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 932:968, ack 1209, win 63792, length 36
+13:22:59.546281 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1209:1245, ack 968, win 63750, length 36
+13:22:59.636496 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1245, win 63756, length 0
+13:22:59.758736 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:22:59.773658 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 968:1004, ack 1245, win 63756, length 36
+13:22:59.773984 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1245:1281, ack 1004, win 63750, length 36
+13:22:59.862317 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1281, win 65000, length 0
+13:22:59.929510 ARP, Request who-has dyn-155-98-37-47.emulab.net tell control-router.emulab.net, length 46
+13:22:59.930957 IP no-mans-land.m247.com.49528 > pc264.emulab.net.socks: Flags [S], seq 1307930670, win 65535, length 0
+13:22:59.981409 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 1004:1040, ack 1281, win 65000, length 36
+13:22:59.981733 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1281:1317, ack 1040, win 63750, length 36
+13:23:00.075358 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1317, win 64964, length 0
+13:23:00.247222 IP pc442.emulab.net.51978 > boss.emulab.net.domain: 52754+ [1au] PTR? 48.39.98.155.in-addr.arpa. (54)
+13:23:00.247370 IP boss.emulab.net.domain > pc442.emulab.net.51978: 52754* 1/2/2 PTR pc248.emulab.net. (135)
+13:23:00.248203 IP pc442.emulab.net.41892 > boss.emulab.net.domain: 61653+ [1au] PTR? 89.149.216.162.in-addr.arpa. (56)
+13:23:00.289885 IP boss.emulab.net.domain > pc442.emulab.net.41892: 61653 1/4/9 PTR 89.149.216.162.bc.googleusercontent.com. (415)
+13:23:00.291096 IP pc442.emulab.net.60665 > boss.emulab.net.domain: 12453+ [1au] PTR? 63.39.98.155.in-addr.arpa. (54)
+13:23:00.291304 IP boss.emulab.net.domain > pc442.emulab.net.60665: 12453* 1/2/2 PTR pc263.emulab.net. (135)
+13:23:00.292227 IP pc442.emulab.net.52374 > boss.emulab.net.domain: 44427+ [1au] PTR? 47.37.98.155.in-addr.arpa. (54)
+13:23:00.292349 IP boss.emulab.net.domain > pc442.emulab.net.52374: 44427* 1/2/2 PTR dyn-155-98-37-47.emulab.net. (146)
+13:23:00.293134 IP pc442.emulab.net.49322 > boss.emulab.net.domain: 2411+ [1au] PTR? 64.39.98.155.in-addr.arpa. (54)
+13:23:00.293315 IP boss.emulab.net.domain > pc442.emulab.net.49322: 2411* 1/2/2 PTR pc264.emulab.net. (135)
+13:23:00.433838 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:23:00.468640 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:23:00.494687 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:23:00.497385 ARP, Request who-has 155.98.36.193 tell control-router.emulab.net, length 46
+13:23:00.505754 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 1040:1076, ack 1317, win 64964, length 36
+13:23:00.506044 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1317:1353, ack 1076, win 63750, length 36
+13:23:00.573848 ARP, Request who-has 155.98.37.171 tell control-router.emulab.net, length 46
+13:23:00.591696 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1353, win 64928, length 0
+13:23:00.685638 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 1076:1112, ack 1353, win 64928, length 36
+13:23:00.685963 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1353:1389, ack 1112, win 63750, length 36
+13:23:00.778391 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1389, win 64892, length 0
+13:23:00.782715 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:23:00.871009 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 1112:1148, ack 1389, win 64892, length 36
+13:23:00.871334 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1389:1425, ack 1148, win 63750, length 36
+13:23:00.956867 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1425, win 64856, length 0
+13:23:00.966433 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 1148:1184, ack 1425, win 64856, length 36
+13:23:00.966758 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1425:1461, ack 1184, win 63750, length 36
+13:23:01.054680 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1461, win 64820, length 0
+13:23:01.073652 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from e4:11:5b:ea:e2:24 (oui Unknown), length 548
+13:23:01.257345 ARP, Request who-has 155.98.37.123 tell control-router.emulab.net, length 46
+13:23:01.271279 IP pc442.emulab.net.48967 > boss.emulab.net.domain: 44869+ [1au] PTR? 171.37.98.155.in-addr.arpa. (55)
+13:23:01.271504 IP boss.emulab.net.domain > pc442.emulab.net.48967: 44869 NXDomain* 0/1/1 (123)
+13:23:01.271683 IP pc442.emulab.net.48967 > boss.emulab.net.domain: 44869+ PTR? 171.37.98.155.in-addr.arpa. (44)
+13:23:01.271901 IP boss.emulab.net.domain > pc442.emulab.net.48967: 44869 NXDomain* 0/1/0 (112)
+13:23:01.272880 IP pc442.emulab.net.34957 > boss.emulab.net.domain: 8806+ [1au] PTR? 123.37.98.155.in-addr.arpa. (55)
+13:23:01.273002 IP boss.emulab.net.domain > pc442.emulab.net.34957: 8806 NXDomain* 0/1/1 (123)
+13:23:01.273173 IP pc442.emulab.net.34957 > boss.emulab.net.domain: 8806+ PTR? 123.37.98.155.in-addr.arpa. (44)
+13:23:01.273298 IP boss.emulab.net.domain > pc442.emulab.net.34957: 8806 NXDomain* 0/1/0 (112)
+13:23:01.518717 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:23:01.566634 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 1184:1220, ack 1461, win 64820, length 36
+13:23:01.566959 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1461:1497, ack 1220, win 63750, length 36
+13:23:01.600799 ARP, Request who-has 155.98.37.113 tell control-router.emulab.net, length 46
+13:23:01.659436 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1497, win 64784, length 0
+13:23:01.689983 ARP, Request who-has 155.98.36.195 tell control-router.emulab.net, length 46
+13:23:01.806697 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:23:02.281988 IP6 fe80::e643:4bff:fe61:36ca.dhcpv6-client > ff02::1:2.dhcpv6-server: dhcp6 inf-req
+13:23:02.295221 IP pc442.emulab.net.58140 > boss.emulab.net.domain: 64780+ [1au] PTR? 113.37.98.155.in-addr.arpa. (55)
+13:23:02.295427 IP boss.emulab.net.domain > pc442.emulab.net.58140: 64780 NXDomain* 0/1/1 (123)
+13:23:02.295603 IP pc442.emulab.net.58140 > boss.emulab.net.domain: 64780+ PTR? 113.37.98.155.in-addr.arpa. (44)
+13:23:02.295802 IP boss.emulab.net.domain > pc442.emulab.net.58140: 64780 NXDomain* 0/1/0 (112)
+13:23:02.296672 IP pc442.emulab.net.58699 > boss.emulab.net.domain: 18952+ [1au] PTR? 195.36.98.155.in-addr.arpa. (55)
+13:23:02.296865 IP boss.emulab.net.domain > pc442.emulab.net.58699: 18952 NXDomain* 0/1/1 (123)
+13:23:02.297024 IP pc442.emulab.net.58699 > boss.emulab.net.domain: 18952+ PTR? 195.36.98.155.in-addr.arpa. (44)
+13:23:02.297217 IP boss.emulab.net.domain > pc442.emulab.net.58699: 18952 NXDomain* 0/1/0 (112)
+13:23:02.422044 IP control-router.emulab.net > pim-routers.mcast.net: PIMv2, Hello, length 26
+13:23:02.424604 IP control-router.emulab.net > all-systems.mcast.net: igmp query v2
+13:23:02.433715 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:23:02.478081 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:23:02.518537 ARP, Request who-has pc510.emulab.net tell pc442.emulab.net, length 28
+13:23:02.518697 ARP, Reply pc510.emulab.net is-at 00:24:e8:78:37:7b (oui Unknown), length 46
+13:23:02.574939 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:23:02.589933 IP6 fe80::211:43ff:fee4:95cd > ip6-allrouters: ICMP6, router solicitation, length 16
+13:23:02.834805 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:23:03.056594 ARP, Request who-has 155.98.37.121 tell control-router.emulab.net, length 46
+13:23:03.225324 IP 89.248.163.19.46659 > pc318.emulab.net.2787: Flags [S], seq 3225924109, win 1024, length 0
+13:23:03.320871 IP pc442.emulab.net.48611 > boss.emulab.net.domain: 30360+ [1au] PTR? 121.37.98.155.in-addr.arpa. (55)
+13:23:03.321051 IP boss.emulab.net.domain > pc442.emulab.net.48611: 30360 NXDomain* 0/1/1 (123)
+13:23:03.321210 IP pc442.emulab.net.48611 > boss.emulab.net.domain: 30360+ PTR? 121.37.98.155.in-addr.arpa. (44)
+13:23:03.321385 IP boss.emulab.net.domain > pc442.emulab.net.48611: 30360 NXDomain* 0/1/0 (112)
+13:23:03.322048 IP pc442.emulab.net.34318 > boss.emulab.net.domain: 35906+ [1au] PTR? 118.39.98.155.in-addr.arpa. (55)
+13:23:03.322246 IP boss.emulab.net.domain > pc442.emulab.net.34318: 35906* 1/2/2 PTR pc318.emulab.net. (136)
+13:23:03.573903 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 1220:1256, ack 1497, win 64784, length 36
+13:23:03.574376 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1497:1541, ack 1256, win 63750, length 44
+13:23:03.598723 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:23:03.668362 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1541, win 64740, length 0
+13:23:03.817209 IP ec2-16-63-149-80.eu-central-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 17, seq 1312, length 16
+13:23:03.844268 ARP, Request who-has pc350.emulab.net tell control-router.emulab.net, length 46
+13:23:03.854630 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:23:04.030327 IP no-mans-land.m247.com.54945 > pc229.emulab.net.socks: Flags [S], seq 280331563, win 65535, length 0
+13:23:04.051644 IP 89.248.163.16.46304 > pc205.emulab.net.1919: Flags [S], seq 4189991364, win 1024, length 0
+13:23:04.104108 IP ec2-16-63-160-241.eu-central-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 17, seq 1312, length 16
+13:23:04.126027 IP ec2-16-62-68-8.eu-central-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 17, seq 1312, length 16
+13:23:04.336725 IP ec2-3-99-128-67.ca-central-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 4192, length 16
+13:23:04.343189 IP pc442.emulab.net.49863 > boss.emulab.net.domain: 6900+ [1au] PTR? 80.149.63.16.in-addr.arpa. (54)
+13:23:04.388648 ARP, Request who-has dyn-155-98-38-182.emulab.net tell control-router.emulab.net, length 46
+13:23:04.394824 IP ec2-99-79-36-128.ca-central-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 4192, length 16
+13:23:04.399458 ARP, Request who-has dyn-155-98-37-69.emulab.net tell control-router.emulab.net, length 46
+13:23:04.416105 IP boss.emulab.net.domain > pc442.emulab.net.49863: 6900 1/4/5 PTR ec2-16-63-149-80.eu-central-2.compute.amazonaws.com. (328)
+13:23:04.417203 IP pc442.emulab.net.39178 > boss.emulab.net.domain: 50801+ [1au] PTR? 150.39.98.155.in-addr.arpa. (55)
+13:23:04.417400 IP boss.emulab.net.domain > pc442.emulab.net.39178: 50801* 1/2/2 PTR pc350.emulab.net. (136)
+13:23:04.418171 IP pc442.emulab.net.36831 > boss.emulab.net.domain: 65300+ [1au] PTR? 5.39.98.155.in-addr.arpa. (53)
+13:23:04.418336 IP boss.emulab.net.domain > pc442.emulab.net.36831: 65300* 1/2/2 PTR pc205.emulab.net. (134)
+13:23:04.419121 IP pc442.emulab.net.58069 > boss.emulab.net.domain: 26676+ [1au] PTR? 241.160.63.16.in-addr.arpa. (55)
+13:23:04.434139 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:23:04.442221 IP ec2-3-96-10-181.ca-central-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 4192, length 16
+13:23:04.484053 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:23:04.486724 IP boss.emulab.net.domain > pc442.emulab.net.58069: 26676 1/4/5 PTR ec2-16-63-160-241.eu-central-2.compute.amazonaws.com. (330)
+13:23:04.487830 IP pc442.emulab.net.54180 > boss.emulab.net.domain: 18549+ [1au] PTR? 8.68.62.16.in-addr.arpa. (52)
+13:23:04.542867 IP boss.emulab.net.domain > pc442.emulab.net.54180: 18549 1/4/5 PTR ec2-16-62-68-8.eu-central-2.compute.amazonaws.com. (324)
+13:23:04.543954 IP pc442.emulab.net.45257 > boss.emulab.net.domain: 15203+ [1au] PTR? 67.128.99.3.in-addr.arpa. (53)
+13:23:04.616821 IP boss.emulab.net.domain > pc442.emulab.net.45257: 15203 1/4/5 PTR ec2-3-99-128-67.ca-central-1.compute.amazonaws.com. (326)
+13:23:04.622727 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:23:04.649503 IP ec2-13-246-237-2.af-south-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 6476, length 16
+13:23:04.656368 IP ec2-13-246-39-72.af-south-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 6476, length 16
+13:23:04.743222 ARP, Request who-has dyn-155-98-37-69.emulab.net tell control-router.emulab.net, length 46
+13:23:04.783394 ARP, Request who-has cnode-guesthouse.emulab.net tell control-router.emulab.net, length 46
+13:23:04.856842 IP 35.210.203.35.bc.googleusercontent.com.54659 > pc465.emulab.net.50306: Flags [S], seq 1997809642, win 1024, options [mss 1460], length 0
+13:23:04.878710 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:23:04.932395 IP ec2-13-245-182-71.af-south-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 6476, length 16
+13:23:04.945450 ARP, Request who-has cnode-moran.emulab.net tell control-router.emulab.net, length 46
+13:23:05.124511 IP dynamic-pppoe-178-141-22-39.kirov.pv.mts.ru.48636 > pc403.emulab.net.http-alt: Flags [S], seq 2824894801, win 5808, options [mss 1452,sackOK,TS val 423052239 ecr 0,nop,wscale 2], length 0
+13:23:05.191948 ARP, Request who-has 155.98.39.207 tell control-router.emulab.net, length 46
+13:23:05.352417 ARP, Request who-has 155.98.38.254 tell control-router.emulab.net, length 46
+13:23:05.353973 IP ec2-52-66-233-232.ap-south-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 30, seq 2889, length 16
+13:23:05.367050 IP pc442.emulab.net.44224 > boss.emulab.net.domain: 48283+ [1au] PTR? 182.38.98.155.in-addr.arpa. (55)
+13:23:05.367274 IP boss.emulab.net.domain > pc442.emulab.net.44224: 48283* 1/2/2 PTR dyn-155-98-38-182.emulab.net. (148)
+13:23:05.368119 IP pc442.emulab.net.45874 > boss.emulab.net.domain: 13340+ [1au] PTR? 128.36.79.99.in-addr.arpa. (54)
+13:23:05.425787 IP ec2-65-2-126-129.ap-south-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 30, seq 2889, length 16
+13:23:05.465946 IP ec2-13-233-126-39.ap-south-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 30, seq 2889, length 16
+13:23:05.476409 IP boss.emulab.net.domain > pc442.emulab.net.45874: 13340 1/4/5 PTR ec2-99-79-36-128.ca-central-1.compute.amazonaws.com. (328)
+13:23:05.477518 IP pc442.emulab.net.50002 > boss.emulab.net.domain: 2514+ [1au] PTR? 69.37.98.155.in-addr.arpa. (54)
+13:23:05.477719 IP boss.emulab.net.domain > pc442.emulab.net.50002: 2514* 1/2/2 PTR dyn-155-98-37-69.emulab.net. (146)
+13:23:05.478567 IP pc442.emulab.net.41712 > boss.emulab.net.domain: 56379+ [1au] PTR? 181.10.96.3.in-addr.arpa. (53)
+13:23:05.480628 IP6 fe80::1618:77ff:fe26:68ed > ip6-allrouters: ICMP6, router solicitation, length 16
+13:23:05.550125 IP boss.emulab.net.domain > pc442.emulab.net.41712: 56379 1/4/5 PTR ec2-3-96-10-181.ca-central-1.compute.amazonaws.com. (326)
+13:23:05.551340 IP pc442.emulab.net.52859 > boss.emulab.net.domain: 31505+ [1au] PTR? 2.237.246.13.in-addr.arpa. (54)
+13:23:05.646989 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:23:05.663693 IP boss.emulab.net.domain > pc442.emulab.net.52859: 31505 1/4/5 PTR ec2-13-246-237-2.af-south-1.compute.amazonaws.com. (318)
+13:23:05.664761 IP pc442.emulab.net.48763 > boss.emulab.net.domain: 4350+ [1au] PTR? 72.39.246.13.in-addr.arpa. (54)
+13:23:05.700685 IP boss.emulab.net.domain > pc442.emulab.net.48763: 4350 1/4/5 PTR ec2-13-246-39-72.af-south-1.compute.amazonaws.com. (318)
+13:23:05.701788 IP pc442.emulab.net.41514 > boss.emulab.net.domain: 6134+ [1au] PTR? 232.37.98.155.in-addr.arpa. (55)
+13:23:05.701992 IP boss.emulab.net.domain > pc442.emulab.net.41514: 6134* 1/2/2 PTR cnode-guesthouse.emulab.net. (147)
+13:23:05.702698 IP pc442.emulab.net.42173 > boss.emulab.net.domain: 35858+ [1au] PTR? 35.210.203.35.in-addr.arpa. (55)
+13:23:05.743604 IP boss.emulab.net.domain > pc442.emulab.net.42173: 35858 1/4/9 PTR 35.210.203.35.bc.googleusercontent.com. (413)
+13:23:05.744755 IP pc442.emulab.net.36234 > boss.emulab.net.domain: 22964+ [1au] PTR? 71.182.245.13.in-addr.arpa. (55)
+13:23:05.812442 IP boss.emulab.net.domain > pc442.emulab.net.36234: 22964 1/4/5 PTR ec2-13-245-182-71.af-south-1.compute.amazonaws.com. (320)
+13:23:05.813560 IP pc442.emulab.net.39493 > boss.emulab.net.domain: 55213+ [1au] PTR? 39.22.141.178.in-addr.arpa. (55)
+13:23:05.827547 ARP, Request who-has cnode-moran.emulab.net tell control-router.emulab.net, length 46
+13:23:05.829632 IP ec2-18-100-120-69.eu-south-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 16, seq 7046, length 16
+13:23:05.884915 IP ec2-18-100-114-165.eu-south-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 16, seq 7046, length 16
+13:23:05.906806 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:23:05.919790 IP ec2-18-101-23-239.eu-south-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 16, seq 7046, length 16
+13:23:06.224369 IP ec2-13-125-158-152.ap-northeast-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 10588, length 16
+13:23:06.254241 ARP, Request who-has cnode-mario.emulab.net tell control-router.emulab.net, length 46
+13:23:06.265436 ARP, Request who-has 155.98.37.193 tell control-router.emulab.net, length 46
+13:23:06.379702 IP ec2-15-165-79-205.ap-northeast-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 10588, length 16
+13:23:06.434343 STP 802.1s, Rapid STP, CIST Flags [Proposal, Learn, Forward, Agreement], length 102
+13:23:06.462447 IP ec2-3-38-140-50.ap-northeast-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 10588, length 16
+13:23:06.478185 IP ec2-13-124-230-82.ap-northeast-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 10588, length 16
+13:23:06.483036 STP 802.1d, Config, Flags [none], bridge-id 8003.0c:85:25:25:94:00.8030, length 42
+13:23:06.484538 IP ec2-43-198-212-135.ap-east-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 13724, length 16
+13:23:06.535635 IP ec2-3-236-46-64.compute-1.amazonaws.com > pc494.emulab.net: ICMP echo request, id 28, seq 11665, length 16
+13:23:06.552286 IP ec2-43-198-139-171.ap-east-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 13724, length 16
+13:23:06.560305 IP ec2-18-162-53-75.ap-east-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 13724, length 16
+13:23:06.582405 IP ec2-34-228-63-18.compute-1.amazonaws.com > pc494.emulab.net: ICMP echo request, id 28, seq 11665, length 16
+13:23:06.602000 IP ec2-52-201-133-221.compute-1.amazonaws.com > pc494.emulab.net: ICMP echo request, id 28, seq 11665, length 16
+13:23:06.647498 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [P.], seq 1256:1292, ack 1541, win 64740, length 36
+13:23:06.647825 IP pc442.emulab.net.ssh > nat-128-62-164-12.public.utexas.edu.50272: Flags [P.], seq 1541:1577, ack 1292, win 63750, length 36
+13:23:06.659444 IP ec2-52-207-212-55.compute-1.amazonaws.com > pc494.emulab.net: ICMP echo request, id 28, seq 11665, length 16
+13:23:06.670731 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:23:06.703812 IP ec2-3-94-22-147.compute-1.amazonaws.com > pc494.emulab.net: ICMP echo request, id 28, seq 11665, length 16
+13:23:06.743381 IP nat-128-62-164-12.public.utexas.edu.50272 > pc442.emulab.net.ssh: Flags [.], ack 1577, win 64704, length 0
+13:23:06.823521 IP boss.emulab.net.domain > pc442.emulab.net.39493: 55213 1/2/3 PTR dynamic-pppoe-178-141-22-39.kirov.pv.mts.ru. (182)
+13:23:06.824452 IP pc442.emulab.net.38810 > boss.emulab.net.domain: 10008+ [1au] PTR? 207.39.98.155.in-addr.arpa. (55)
+13:23:06.824633 IP boss.emulab.net.domain > pc442.emulab.net.38810: 10008 NXDomain* 0/1/1 (123)
+13:23:06.824795 IP pc442.emulab.net.38810 > boss.emulab.net.domain: 10008+ PTR? 207.39.98.155.in-addr.arpa. (44)
+13:23:06.824974 IP boss.emulab.net.domain > pc442.emulab.net.38810: 10008 NXDomain* 0/1/0 (112)
+13:23:06.825723 IP pc442.emulab.net.46902 > boss.emulab.net.domain: 41209+ [1au] PTR? 254.38.98.155.in-addr.arpa. (55)
+13:23:06.825857 IP boss.emulab.net.domain > pc442.emulab.net.46902: 41209 NXDomain* 0/1/1 (123)
+13:23:06.825982 IP pc442.emulab.net.46902 > boss.emulab.net.domain: 41209+ PTR? 254.38.98.155.in-addr.arpa. (44)
+13:23:06.826095 IP boss.emulab.net.domain > pc442.emulab.net.46902: 41209 NXDomain* 0/1/0 (112)
+13:23:06.826849 IP pc442.emulab.net.58740 > boss.emulab.net.domain: 59890+ [1au] PTR? 232.233.66.52.in-addr.arpa. (55)
+13:23:06.869115 ARP, Request who-has pc239.emulab.net tell control-router.emulab.net, length 46
+13:23:06.900158 IP boss.emulab.net.domain > pc442.emulab.net.58740: 59890 1/4/5 PTR ec2-52-66-233-232.ap-south-1.compute.amazonaws.com. (320)
+13:23:06.901312 IP pc442.emulab.net.50869 > boss.emulab.net.domain: 42917+ [1au] PTR? 129.126.2.65.in-addr.arpa. (54)
+13:23:06.930727 ARP, Request who-has dns.google tell cnuc-dentistry.emulab.net, length 46
+13:23:06.943383 IP ec2-52-53-217-200.us-west-1.compute.amazonaws.com > pc464.emulab.net: ICMP echo request, id 17, seq 13036, length 16
+13:23:06.943383 IP ec2-52-53-217-200.us-west-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 17, seq 13041, length 16
+13:23:06.970824 ARP, Request who-has cnode-moran.emulab.net tell control-router.emulab.net, length 46
+13:23:06.971517 IP ec2-13-40-174-197.eu-west-2.compute.amazonaws.com > pc448.emulab.net: ICMP echo request, id 24, seq 15393, length 16
+13:23:06.973023 IP ec2-13-40-174-197.eu-west-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 24, seq 15395, length 16
+13:23:06.976691 ARP, Request who-has dyn-155-98-37-69.emulab.net tell control-router.emulab.net, length 46
+13:23:06.980780 IP ec2-79-125-69-17.eu-west-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 15323, length 16
+13:23:07.005680 IP ec2-54-193-10-135.us-west-1.compute.amazonaws.com > pc464.emulab.net: ICMP echo request, id 17, seq 13036, length 16
+13:23:07.007709 IP ec2-54-193-10-135.us-west-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 17, seq 13041, length 16
+13:23:07.041898 IP ec2-34-240-39-181.eu-west-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 15323, length 16
+13:23:07.077382 IP ec2-3-8-126-133.eu-west-2.compute.amazonaws.com > pc448.emulab.net: ICMP echo request, id 24, seq 15393, length 16
+13:23:07.077514 IP ec2-3-8-126-133.eu-west-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 24, seq 15395, length 16
+13:23:07.134039 IP ec2-34-241-107-179.eu-west-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 2, seq 15323, length 16
+13:23:07.138598 IP ec2-13-41-187-151.eu-west-2.compute.amazonaws.com > pc448.emulab.net: ICMP echo request, id 24, seq 15393, length 16
+13:23:07.138787 IP ec2-13-41-187-151.eu-west-2.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 24, seq 15395, length 16
+13:23:07.224075 IP control-router.emulab.net > pim-routers.mcast.net: PIMv2, Bootstrap, length 36
+13:23:07.247266 IP6 fe80::1a66:daff:fe6c:ebae.dhcpv6-client > ff02::1:2.dhcpv6-server: dhcp6 inf-req
+13:23:07.271891 IP boss.emulab.net.domain > pc442.emulab.net.50869: 42917 1/4/5 PTR ec2-65-2-126-129.ap-south-1.compute.amazonaws.com. (318)
+13:23:07.272995 IP pc442.emulab.net.45464 > boss.emulab.net.domain: 36420+ [1au] PTR? 39.126.233.13.in-addr.arpa. (55)
+13:23:07.328425 IP boss.emulab.net.domain > pc442.emulab.net.45464: 36420 1/4/5 PTR ec2-13-233-126-39.ap-south-1.compute.amazonaws.com. (320)
+13:23:07.329843 IP pc442.emulab.net.60669 > boss.emulab.net.domain: 18375+ [1au] PTR? 69.120.100.18.in-addr.arpa. (55)
+13:23:07.397470 IP ec2-13-53-79-80.eu-north-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 13, seq 17715, length 16
+13:23:07.402981 IP boss.emulab.net.domain > pc442.emulab.net.60669: 18375 1/4/5 PTR ec2-18-100-120-69.eu-south-2.compute.amazonaws.com. (320)
+13:23:07.404063 IP pc442.emulab.net.55467 > boss.emulab.net.domain: 29007+ [1au] PTR? 165.114.100.18.in-addr.arpa. (56)
+13:23:07.457357 IP boss.emulab.net.domain > pc442.emulab.net.55467: 29007 1/4/5 PTR ec2-18-100-114-165.eu-south-2.compute.amazonaws.com. (322)
+13:23:07.458366 IP pc442.emulab.net.36854 > boss.emulab.net.domain: 18340+ [1au] PTR? 239.23.101.18.in-addr.arpa. (55)
+13:23:07.559149 IP6 fe80::baae:edff:fe74:ac1b.dhcpv6-client > ff02::1:2.dhcpv6-server: dhcp6 inf-req
+13:23:07.589514 ARP, Request who-has 155.98.36.236 tell control-router.emulab.net, length 46
+13:23:07.604142 IP 52.81.92.225 > pc256.emulab.net: ICMP echo request, id 13, seq 11346, length 16
+13:23:07.623582 IP boss.emulab.net.domain > pc442.emulab.net.36854: 18340 1/4/5 PTR ec2-18-101-23-239.eu-south-2.compute.amazonaws.com. (320)
+13:23:07.624637 IP pc442.emulab.net.51306 > boss.emulab.net.domain: 946+ [1au] PTR? 152.158.125.13.in-addr.arpa. (56)
+13:23:07.633974 IP 52.81.92.225 > pc464.emulab.net: ICMP echo request, id 13, seq 11351, length 16
+13:23:07.638660 IP ec2-54-223-119-56.cn-north-1.compute.amazonaws.com.cn > pc464.emulab.net: ICMP echo request, id 13, seq 11351, length 16
+13:23:07.652061 IP ec2-54-223-119-56.cn-north-1.compute.amazonaws.com.cn > pc256.emulab.net: ICMP echo request, id 13, seq 11346, length 16
+13:23:07.672117 IP ec2-140-179-97-127.cn-north-1.compute.amazonaws.com.cn > pc464.emulab.net: ICMP echo request, id 13, seq 11351, length 16
+13:23:07.675547 IP ec2-140-179-97-127.cn-north-1.compute.amazonaws.com.cn > pc256.emulab.net: ICMP echo request, id 13, seq 11346, length 16
+13:23:07.694748 ARP, Request who-has boss.emulab.net tell cnuc-dentistry.emulab.net, length 46
+13:23:07.700512 ARP, Request who-has 155.98.37.158 tell control-router.emulab.net, length 46
+13:23:07.714458 IP boss.emulab.net.domain > pc442.emulab.net.51306: 946 1/4/5 PTR ec2-13-125-158-152.ap-northeast-2.compute.amazonaws.com. (342)
+13:23:07.715535 IP pc442.emulab.net.38928 > boss.emulab.net.domain: 57318+ [1au] PTR? 230.37.98.155.in-addr.arpa. (55)
+13:23:07.715754 IP boss.emulab.net.domain > pc442.emulab.net.38928: 57318* 1/2/2 PTR cnode-mario.emulab.net. (142)
+13:23:07.716596 IP pc442.emulab.net.53324 > boss.emulab.net.domain: 47668+ [1au] PTR? 193.37.98.155.in-addr.arpa. (55)
+13:23:07.716795 IP boss.emulab.net.domain > pc442.emulab.net.53324: 47668 NXDomain* 0/1/1 (123)
+13:23:07.716975 IP pc442.emulab.net.53324 > boss.emulab.net.domain: 47668+ PTR? 193.37.98.155.in-addr.arpa. (44)
+13:23:07.717173 IP boss.emulab.net.domain > pc442.emulab.net.53324: 47668 NXDomain* 0/1/0 (112)
+13:23:07.717874 IP pc442.emulab.net.39796 > boss.emulab.net.domain: 11242+ [1au] PTR? 205.79.165.15.in-addr.arpa. (55)
+13:23:07.738523 LLDP, length 264: procurve2
+13:23:07.772837 IP boss.emulab.net.domain > pc442.emulab.net.39796: 11242 1/4/5 PTR ec2-15-165-79-205.ap-northeast-2.compute.amazonaws.com. (340)
+13:23:07.773938 IP pc442.emulab.net.35318 > boss.emulab.net.domain: 11793+ [1au] PTR? 50.140.38.3.in-addr.arpa. (53)
+13:23:07.802054 ARP, Request who-has 155.98.39.181 tell control-router.emulab.net, length 46
+13:23:07.819389 ARP, Request who-has dyn-155-98-37-69.emulab.net tell control-router.emulab.net, length 46
+13:23:07.819617 IP ec2-13-49-137-104.eu-north-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 13, seq 17715, length 16
+13:23:07.840152 IP ec2-13-51-204-111.eu-north-1.compute.amazonaws.com > pc256.emulab.net: ICMP echo request, id 13, seq 17715, length 16
+13:23:07.841833 IP boss.emulab.net.domain > pc442.emulab.net.35318: 11793 1/4/5 PTR ec2-3-38-140-50.ap-northeast-2.compute.amazonaws.com. (336)
+13:23:07.842914 IP pc442.emulab.net.42250 > boss.emulab.net.domain: 58782+ [1au] PTR? 82.230.124.13.in-addr.arpa. (55)
+13:23:07.845598 IP ec2-34-234-175-197.compute-1.amazonaws.com > pc494.emulab.net: ICMP echo request, id 5, seq 13445, length 16
+13:23:07.845627 ARP, Request who-has cnode-moran.emulab.net tell control-router.emulab.net, length 46
+13:23:07.848543 IP ec2-13-38-250-64.eu-west-3.compute.amazonaws.com > pc448.emulab.net: ICMP echo request, id 26, seq 21824, length 16
+13:23:07.861834 IP ec2-13-38-19-100.eu-west-3.compute.amazonaws.com > pc448.emulab.net: ICMP echo request, id 26, seq 21824, length 16
+13:23:07.885380 IP6 fe80::46a8:42ff:fe4a:8214.dhcpv6-client > ff02::1:2.dhcpv6-server: dhcp6 inf-req
+13:23:07.897363 IP boss.emulab.net.domain > pc442.emulab.net.42250: 58782 1/4/5 PTR ec2-13-124-230-82.ap-northeast-2.compute.amazonaws.com. (340)
+13:23:07.898027 IP ec2-15-168-15-58.ap-northeast-3.compute.amazonaws.com > pc448.emulab.net: ICMP echo request, id 10, seq 21276, length 16
