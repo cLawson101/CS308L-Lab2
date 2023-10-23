@@ -305,18 +305,22 @@ int bb_open(const char *path, struct fuse_file_info *fi)
     fd = log_syscall("open", open(fpath, fi->flags), 0);
     if (fd < 0)
 	retstat = log_error("open");
-	
 
-    uint64_t* info = (uint64_t*)malloc(3*sizeof(uint64_t));
+    log_msg("CLEAR MARKER\n");
+    log_msg("fd from open was: %d\n", fd);
+    
+    // items[0] = fd
+    // items[1] = char** 
+    uint64_t* items = (uint64_t*)malloc(2*sizeof(uint64_t));
+    items[0] = fd;
+    items[1] = 0;
 
-    info[0] = fd;
-    info[1] = 0;
-    info[2] = 0;
-    info[3] = 0;
+    log_msg("Setting items[0] to: %2d\n", items[0]);
+    log_msg("Setting items[1] to: %8lX\n", items[1]);
 
-    fi->fh = (uint64_t)(info);
+    log_msg("Modifying fi: %lp\n", fi);
 
-    log_fi(fi);
+    fi->fh = (uint64_t) items;
     
     return retstat;
 }
@@ -345,82 +349,83 @@ int bb_read(const char *path, char *buf, size_t size, off_t offset, struct fuse_
 	    path, buf, size, offset, fi);
     // no need to get fpath on this one, since I work from fi->fh not the path
     log_fi(fi);
+    log_msg("Recieved fi: %lp\n", fi);
+    
 
-    uint64_t* info = (uint64_t*)fi->fh;
 
-    int* stored_blocks = (int*) info[1];
-    char** stored_buff = (char**) info[2];
+    uint64_t* info = (uint64_t*) fi->fh;
 
-    int cur_block = (offset >> 12);
-    int block_offset = offset % (1 << 12);
-    int cur_write = 0;
+    // log_msg("Info contains: info[1]: %8lX\n", info[1]);
 
-    int total_blocks_traversed = (size >> 12);
+    if(info[1] == 0){
+	log_msg("first time reading going to read in all file\n");
+    	// Need to read in the entire file
+	char** cache = (char**) malloc((1 << 18)*sizeof(char*));
 
-    if (size % (1 << 12)){
-    	total_blocks_traversed++;
-    }
-
-    if(block_offset){
-    	cur_block++;
-    }
-
-    for(int i = block_offset; i < total_blocks_traversed; i++){
-    	// check if in stored_blocks
-	int foundidx = -1;
-	for(int j = 0; j < 10; j++){
-	    if(stored_blocks[j] == i){
-	    	foundidx = j;
-		break;
-	    }
+	for(int i = 0; i < (1 << 18); i++){
+	    char* temp_buffer = (char*) malloc(4096 * sizeof(char));
+	    int pread_result = pread(info[0], temp_buffer, 4096, 4096*i);
+	    cache[i] = temp_buffer;
 	}
 
-	if(foundidx != -1){
-	    char* blk_buff = stored_buff[foundidx];
-	    
-	    int num_read = 0;
-	    
-	    // Find out how much I have left to read
-	    if (size - cur_write > 4096){
-                num_read = 4096;
-            } else {
-                num_read = size - cur_write;
-            }
-	    
-	    strncpy(buf + cur_write, blk_buff, num_read);
+	info[1] = (uint64_t) cache;
 
-	    if (size - cur_write > 4096){
-                cur_write += 4096;
-            } else {
-                cur_write += size - cur_write;
-            }
+	log_msg("cache created at location: %lX\n", info[1]);
+    }
 
+    char** cache = (char**)info[1];
+
+    int start_block = offset / 4096;
+    int num_blocks = size / 4096;
+    if(num_blocks % 4096 != 0){
+    	num_blocks++;
+    }
+
+    int dest_offset = 0;
+    int src_offset = offset % 4096;
+    int bytes_read = 0;
+
+    log_msg("Going to start at: %d\n", start_block);
+    log_msg("Going to read %d number of blocks\n", num_blocks);
+    log_msg("dest_offset: %d\n", dest_offset);
+    log_msg("src_offset: %d\n", src_offset);
+    log_msg("bytes to read: %d\n\n\n", bytes_read);
+
+    log_msg("buf is: %lp\n\n", buf);
+
+    // Now need to figure out which blocks are needed or not
+
+    for(int i = start_block; i < num_blocks + start_block; i++){
+    	int bytes_to_read_dest = (size - bytes_read) > 4096 ? 4096 : (size - bytes_read);
+	int bytes_to_read_src = 4096 - src_offset;
+	
+	log_msg("Bytes to read dest: %d\n", bytes_to_read_dest);
+	log_msg("Bytes to read src: %d\n", bytes_to_read_src);
+
+
+	if(bytes_to_read_src % 4096 == 0){
+	    log_msg("About to do memcpy\n");
+	    log_msg("Looking at dest %p\n", buf+dest_offset);
+	    log_msg("Looking at src %p\n", cache[start_block] + src_offset);
+	    log_msg("Looking at size %d\n", bytes_to_read_dest);
+	    memcpy(buf + dest_offset, cache[start_block] + src_offset, bytes_to_read_dest);
+	    dest_offset += bytes_to_read_dest;
+	    bytes_read += bytes_to_read_dest;
 	} else {
-	    char* blk_buff = (char*) malloc(4096);
-
-	    pread(info[0], blk_buff, 4096, i * 4096);
-	    stored_buff[i % 4096] = blk_buff;
-
-	    int num_read = 0;
-
-	    if (size - cur_write > 4096){
-                num_read = 4096;
-            } else {
-                num_read = size - cur_write;
-            }
-
-	    strncpy(buf + cur_write, blk_buff, num_read);
-
-	    if (size - cur_write > 4096){
-                cur_write += 4096;
-            } else {
-                cur_write += size - cur_write;
-            }
-
+	    log_msg("About to do memcpy\n");
+	    memcpy(buf + dest_offset, cache[start_block] + src_offset, bytes_to_read_src);
+	    dest_offset += bytes_to_read_src;
+	    src_offset += bytes_to_read_src;
+	    src_offset %= 4096;
+	    bytes_read += bytes_to_read_src;
 	}
+
+	log_msg("Dest offset: %d\n", dest_offset);
+	log_msg("Bytes_read: %d\n", bytes_read);
+
     }
 
-    return 1
+    return 1;
 }
 
 /** Write data to an open file
@@ -437,87 +442,16 @@ int bb_write(const char *path, const char *buf, size_t size, off_t offset,
 	     struct fuse_file_info *fi)
 {
     int retstat = 0;
-
-    log_msg("\nbb_read(path=\"%s\", buf=0x%08x, size=%d, offset=%lld, fi=0x%08x)\n",
-            path, buf, size, offset, fi);
+    
+    log_msg("\nbb_write(path=\"%s\", buf=0x%08x, size=%d, offset=%lld, fi=0x%08x)\n",
+	    path, buf, size, offset, fi
+	    );
     // no need to get fpath on this one, since I work from fi->fh not the path
     log_fi(fi);
 
-    uint64_t* info = (uint64_t*)fi->fh;
+    uint64_t* info = (uint64_t*) fi->fh;
 
-    int* stored_blocks = (int*) info[1];
-    char** stored_buff = (char**) info[2];
-
-    int cur_block = (offset >> 12);
-    int block_offset = offset % (1 << 12);
-    int cur_write = 0;
-
-    int total_blocks_traversed = (size >> 12);
-
-    if (size % (1 << 12)){
-        total_blocks_traversed++;
-    }
-
-    if(block_offset){
-        cur_block++;
-    }
-
-    for(int i = block_offset; i < total_blocks_traversed; i++){
-        // check if in stored_blocks
-        int foundidx = -1;
-        for(int j = 0; j < 10; j++){
-            if(stored_blocks[j] == i){
-                foundidx = j;
-                break;
-            }
-        }
-
-        if(foundidx != -1){
-            char* blk_buff = stored_buff[foundidx];
-
-            int num_read = 0;
-
-            // Find out how much I have left to read
-            if (size - cur_write > 4096){
-                num_read = 4096;
-            } else {
-                num_read = size - cur_write;
-            }
-
-            strncpy(buf + cur_write, blk_buff, num_read);
-
-            if (size - cur_write > 4096){
-                cur_write += 4096;
-            } else {
-                cur_write += size - cur_write;
-            }
-
-        } else {
-            char* blk_buff = (char*) malloc(4096);
-
-            pread(info[0], blk_buff, 4096, i * 4096);
-            stored_buff[i % 4096] = blk_buff;
-
-            int num_read = 0;
-
-            if (size - cur_write > 4096){
-                num_read = 4096;
-            } else {
-                num_read = size - cur_write;
-            }
-
-            strncpy(buf + cur_write, blk_buff, num_read);
-
-            if (size - cur_write > 4096){
-                cur_write += 4096;
-            } else {
-                cur_write += size - cur_write;
-            }
-
-        }
-    }
-
-    return 1
+    return log_syscall("pwrite", pwrite(info[0], buf, size, offset), 0);
 }
 
 /** Get file system statistics
@@ -597,26 +531,20 @@ int bb_release(const char *path, struct fuse_file_info *fi)
 	  path, fi);
     log_fi(fi);
 
+    // Need to delete the current blocks
     uint64_t* info = (uint64_t*)fi->fh;
+    int old_fd = info[0];
+    char** cache = (char**)info[1];
 
-    int cur_fd = info[0];
-
-    info[0] = -1;
-    
-    if(info[1] != 0){
-    	free((int*)info[1]);
+    for(int i = 0; i < 1 << 18; i++){
+    	free(cache[i]);
     }
 
-    if(info[2] != 0){
-    	free((char**)info[2]);
-    }
-
-    info[1] = 0;
-    info[2] = 0;
+    free(info);
 
     // We need to close the file.  Had we allocated any resources
     // (buffers etc) we'd need to free them here as well.
-    return log_syscall("close", close(cur_fd), 0);
+    return log_syscall("close", close(old_fd), 0);
 }
 
 /** Synchronize file contents
@@ -631,14 +559,16 @@ int bb_fsync(const char *path, int datasync, struct fuse_file_info *fi)
     log_msg("\nbb_fsync(path=\"%s\", datasync=%d, fi=0x%08x)\n",
 	    path, datasync, fi);
     log_fi(fi);
+
+    uint64_t* info = (uint64_t*) fi->fh;
     
     // some unix-like systems (notably freebsd) don't have a datasync call
 #ifdef HAVE_FDATASYNC
     if (datasync)
-	return log_syscall("fdatasync", fdatasync(fi->fh), 0);
+	return log_syscall("fdatasync", fdatasync(info[0]), 0);
     else
 #endif	
-	return log_syscall("fsync", fsync(fi->fh), 0);
+	return log_syscall("fsync", fsync(info[0]), 0);
 }
 
 #ifdef HAVE_SYS_XATTR_H
@@ -947,8 +877,10 @@ int bb_ftruncate(const char *path, off_t offset, struct fuse_file_info *fi)
     log_msg("\nbb_ftruncate(path=\"%s\", offset=%lld, fi=0x%08x)\n",
 	    path, offset, fi);
     log_fi(fi);
+
+    uint64_t* info = (uint64_t*) fi->fh;
     
-    retstat = ftruncate(fi->fh, offset);
+    retstat = ftruncate(info[0], offset);
     if (retstat < 0)
 	retstat = log_error("bb_ftruncate ftruncate");
     
@@ -982,7 +914,9 @@ int bb_fgetattr(const char *path, struct stat *statbuf, struct fuse_file_info *f
     if (!strcmp(path, "/"))
 	return bb_getattr(path, statbuf);
     
-    retstat = fstat(fi->fh, statbuf);
+    uint64_t* info = (uint64_t*) fi->fh;
+    
+    retstat = fstat(info[0], statbuf);
     if (retstat < 0)
 	retstat = log_error("bb_fgetattr fstat");
     
